@@ -139,5 +139,8 @@ Audio and artwork belong to DJ PHANTOMTAPE and stay on SoundCloud — this page
 links and streams, it does not re-host. Playback uses the official SoundCloud
 widget per their [attribution guidelines][attribution].
 
+The MIT licence in `LICENSE` covers this project's own code only. It does not
+extend to the music or the cover art.
+
 [widget]: https://developers.soundcloud.com/docs/api/html5-widget
 [attribution]: https://developers.soundcloud.com/docs/api/buttons-logos
