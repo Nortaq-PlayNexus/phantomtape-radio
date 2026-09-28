@@ -79,6 +79,14 @@ with sync_playwright() as p:
     # Full page, for the README hero slot.
     page.screenshot(path=str(OUT / "broadcast-full.png"), full_page=True)
 
+    # Social preview hero: masthead + player deck in one wide crop. GitHub
+    # builds a repo's og:image from the first image in the README, so this is
+    # what shows when the link is pasted into Reddit, X or HN.
+    page.screenshot(
+        path=str(OUT / "hero.png"),
+        clip={"x": 0, "y": 0, "width": 1400, "height": 500},
+    )
+
     # Tight crop of masthead + player deck, for a compact README embed.
     deck = page.query_selector(".deck")
     if deck:
