@@ -29,7 +29,10 @@ with sync_playwright() as p:
     else:
         print("  browser        : playwright bundled chromium")
         browser = p.chromium.launch(args=["--force-color-profile=srgb"])
-    page = browser.new_page(viewport={"width": 1280, "height": 900}, device_scale_factor=2)
+    # 1x at 1400px: GitHub's content column is ~1012px, so this is already
+    # sharper than it will ever be displayed, at a third of the file size of a
+    # 2x capture.
+    page = browser.new_page(viewport={"width": 1400, "height": 950}, device_scale_factor=1)
 
     errors = []
     page.on("console", lambda m: errors.append(f"{m.type}: {m.text}") if m.type == "error" else None)
@@ -39,11 +42,23 @@ with sync_playwright() as p:
 
     # Dismiss the boot overlay, then let the first track's waveform settle.
     page.keyboard.press("Escape")
-    page.wait_for_timeout(1200)
+    page.wait_for_timeout(1500)
+
+    # Start playback so the still shows the thing working: ON AIR, a lit
+    # playhead on the waveform, and a non-zero clock.
+    page.click("#btnPlay")
+    page.wait_for_timeout(5000)
+    page.evaluate("SC.Widget(document.getElementById('scWidget')).seekTo(42000)")
+    page.wait_for_timeout(2500)
 
     # Confirm the page actually initialised before shooting anything.
     rows = page.eval_on_selector_all(".row", "els => els.length")
     title = page.inner_text("#npTitle")
+    onair = page.inner_text("#onairLabel")
+    clock = page.inner_text("#tNow")
+    pos = page.evaluate(
+        "new Promise(r => SC.Widget(document.getElementById('scWidget')).getPosition(p => r(p)))"
+    )
     wave_drawn = page.evaluate(
         "() => { const c = document.getElementById('wave');"
         " const x = c.getContext('2d').getImageData(0, 0, c.width, c.height).data;"
@@ -52,6 +67,7 @@ with sync_playwright() as p:
 
     print(f"  rows rendered : {rows}")
     print(f"  now playing   : {title!r}")
+    print(f"  on air        : {onair}  @ {clock}  ({pos:.0f} ms)")
     print(f"  waveform px   : {wave_drawn}")
     if errors:
         print("  console errors:")
