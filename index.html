@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PHANTOMTAPE // 103.7</title>
+<meta name="description" content="DJ PHANTOMTAPE — pirate digital broadcast. 60 tracks, 3.2 hours, tuned to 103.7." />
+<meta name="theme-color" content="#0a0e1a" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0e1a'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23B8FF1E'/%3E%3Ccircle cx='16' cy='16' r='2' fill='%230a0e1a'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<!-- ── scanlines + vignette ─────────────────────────────────────────── -->
+<div class="crt" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+
+<!-- ── boot sequence ────────────────────────────────────────────────── -->
+<div class="boot" id="boot" role="dialog" aria-label="Boot sequence">
+  <pre class="boot__log" id="bootLog"></pre>
+  <div class="boot__bar"><i id="bootBar"></i></div>
+  <button class="boot__skip" id="bootSkip" type="button">[ PRESS ANY KEY TO SKIP ]</button>
+</div>
+
+<main class="shell" id="shell" hidden>
+
+  <!-- ── masthead ───────────────────────────────────────────────────── -->
+  <header class="masthead">
+    <div class="masthead__id">
+      <div class="cassette" aria-hidden="true">
+        <span class="cassette__reel"></span>
+        <span class="cassette__reel cassette__reel--b"></span>
+        <span class="cassette__label">PHNT-007</span>
+      </div>
+      <div>
+        <h1 class="wordmark">DJ&nbsp;PHANTOMTAPE</h1>
+        <p class="wordmark__sub">PIRATE DIGITAL BROADCAST &middot; ARCHIVE NODE 07</p>
+      </div>
+    </div>
+
+    <div class="masthead__dial">
+      <div class="onair" id="onair">
+        <span class="onair__dot"></span>
+        <span class="onair__label" id="onairLabel">STANDBY</span>
+      </div>
+      <div class="dial" aria-hidden="true">
+        <div class="dial__track"></div>
+        <div class="dial__needle" id="dialNeedle"></div>
+      </div>
+      <p class="masthead__freq">103.7 <span>FM</span></p>
+      <p class="masthead__clock"><span id="clock">--:--:--</span> UTC</p>
+    </div>
+  </header>
+
+  <!-- ── now playing ────────────────────────────────────────────────── -->
+  <section class="deck" aria-label="Now playing">
+
+    <div class="deck__art">
+      <div class="deck__frame">
+        <img id="npArt" alt="" decoding="async" />
+        <div class="deck__scan" aria-hidden="true"></div>
+      </div>
+      <div class="deck__eq" id="eq" aria-hidden="true"></div>
+    </div>
+
+    <div class="deck__main">
+      <p class="deck__eyebrow" id="npEyebrow">NO SIGNAL &mdash; SELECT A TRANSMISSION</p>
+      <h2 class="deck__title" id="npTitle">PRESS PLAY</h2>
+      <p class="deck__meta" id="npMeta">&nbsp;</p>
+
+      <div class="wave">
+        <canvas id="wave" height="150" role="slider" tabindex="0"
+                aria-label="Seek within track" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></canvas>
+        <div class="wave__cursor" id="waveCursor" aria-hidden="true"></div>
+      </div>
+
+      <div class="transport">
+        <button class="tbtn" id="btnPrev" type="button" title="Previous (K)" aria-label="Previous track">&#9668;&#9668;</button>
+        <button class="tbtn tbtn--play" id="btnPlay" type="button" title="Play / pause (Space)" aria-label="Play">
+          <span id="playGlyph">&#9654;</span>
+        </button>
+        <button class="tbtn" id="btnNext" type="button" title="Next (J)" aria-label="Next track">&#9658;&#9658;</button>
+
+        <div class="transport__time">
+          <span id="tNow">0:00</span>
+          <span class="dim">/</span>
+          <span id="tEnd">0:00</span>
+          <span class="dim">&minus;<span id="tLeft">0:00</span></span>
+        </div>
+
+        <label class="vol">
+          <span class="vol__glyph" aria-hidden="true">&#9835;</span>
+          <input type="range" id="vol" min="0" max="100" value="85" aria-label="Volume" />
+        </label>
+
+        <a class="tbtn tbtn--ext" id="btnSC" href="#" target="_blank" rel="noopener" title="Open on SoundCloud" aria-label="Open on SoundCloud">&#8599;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── archive index ──────────────────────────────────────────────── -->
+  <section class="index" aria-label="Archive index">
+    <div class="index__head">
+      <h2 class="sect">&sect; ARCHIVE INDEX &mdash; <span id="count">0</span> TRANSMISSIONS</h2>
+      <div class="index__tools">
+        <input type="search" id="search" placeholder="grep the archive&hellip;" aria-label="Search tracks" autocomplete="off" />
+        <div class="chips" id="genres" role="group" aria-label="Filter by genre"></div>
+        <label class="sortsel">
+          SORT
+          <select id="sort" aria-label="Sort tracks">
+            <option value="new">NEWEST</option>
+            <option value="old">OLDEST</option>
+            <option value="plays">MOST PLAYED</option>
+            <option value="title">A &rarr; Z</option>
+            <option value="long">LONGEST</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div class="rows" id="rows"></div>
+    <p class="rows__empty" id="rowsEmpty" hidden>NO MATCH ON THIS FREQUENCY.</p>
+  </section>
+
+  <!-- ── signal stats ───────────────────────────────────────────────── -->
+  <section class="stats" aria-label="Signal statistics">
+    <pre class="panel" id="panelWeather"></pre>
+    <pre class="panel" id="panelGenome"></pre>
+  </section>
+
+  <!-- ── frequencies ────────────────────────────────────────────────── -->
+  <footer class="foot">
+    <pre class="dial2" aria-hidden="true">
+    FM DIAL &#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;&#9618;
+       MHz  87.5 &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472; 108
+              &#9650; broadcast band, tuned to 103.7 forever
+    </pre>
+    <pre class="links" id="links"></pre>
+    <p class="colophon">
+      <span id="colophon"></span><br />
+      audio streams and waveform data served by soundcloud &middot; catalogue rebuilt nightly
+    </p>
+  </footer>
+
+</main>
+
+<audio id="audio" preload="metadata"></audio>
+<script src="assets/app.js"></script>
+</body>
+</html>
