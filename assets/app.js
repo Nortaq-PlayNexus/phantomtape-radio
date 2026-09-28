@@ -5,7 +5,6 @@
   'use strict';
 
   const $ = (id) => document.getElementById(id);
-  const audio = $('audio');
 
   const el = {
     boot: $('boot'), bootLog: $('bootLog'), bootBar: $('bootBar'), bootSkip: $('bootSkip'),
@@ -20,13 +19,31 @@
     search: $('search'), genres: $('genres'), sort: $('sort'),
     panelWeather: $('panelWeather'), panelGenome: $('panelGenome'),
     links: $('links'), colophon: $('colophon'),
+    frame: $('scWidget'),
+  };
+
+  // Audio is owned by the SoundCloud Widget. Everything visual is ours, but
+  // transport, position and duration all come across postMessage.
+  const WIDGET_OPTS = {
+    auto_play: false,
+    buying: false,
+    sharing: false,
+    download: false,
+    show_artwork: false,
+    show_playcount: false,
+    show_user: true,
+    show_reposts: false,
+    show_teaser: false,
+    visual: false,
+    hide_related: true,
+    color: '#b8ff1e',
   };
 
   const state = {
     meta: null, tracks: [], waves: null,
     view: [], index: -1, filterGenre: null, query: '', sort: 'new',
-    scrubbing: false, ready: false, ctx: null, analyser: null, srcNode: null,
-    useWebAudio: false, rafEq: 0,
+    scrubbing: false, widgetReady: false, widgetPrimed: false, wantPlay: false,
+    pos: 0, dur: 0, playing: false, widget: null, rafEq: 0,
   };
 
   const fmt = (s) => {
@@ -36,6 +53,78 @@
   };
   const pad = (n) => String(n).padStart(2, '0');
   const bar = (v, w = 22) => '█'.repeat(Math.round(v * w)).padEnd(w, '░');
+
+  // ── widget bridge ──────────────────────────────────────────────────
+  const msToS = (ms) => (isFinite(ms) ? ms / 1000 : 0);
+
+  function widgetUrlFor(track) {
+    // Widgets resolve plain permalinks server-side, so no API key and no
+    // client_id ever reach the browser.
+    return `https://w.soundcloud.com/player/?url=${encodeURIComponent(track.permalink)}`
+         + '&color=%23b8ff1e&visual=false&hide_related=true&show_comments=false'
+         + '&show_user=true&show_reposts=false&show_teaser=false';
+  }
+
+  function initWidget(track) {
+    if (state.widget || typeof SC === 'undefined' || !SC.Widget) return !!state.widget;
+    // The iframe must point at a real track *before* the widget binds, or the
+    // player 404s and READY never arrives, which silently kills all transport.
+    if (track) el.frame.src = widgetUrlFor(track);
+
+    const w = SC.Widget(el.frame);
+    const E = SC.Widget.Events;
+
+    w.bind(E.READY, () => {
+      state.widgetReady = true;
+      w.getDuration((d) => {
+        if (isFinite(d) && d > 0) {
+          state.dur = d;
+          const t = state.tracks[state.index];
+          if (t && Math.abs(msToS(d) - t.duration) > 2) {
+            t.duration = Math.round(msToS(d));
+            buildRows();
+          }
+          el.tEnd.textContent = fmt(msToS(d));
+          drawWave();
+        }
+        if (state.wantPlay) w.play();
+      });
+    });
+
+    w.bind(E.PLAY,  () => { state.playing = true;  setPlayGlyph(true);  });
+    w.bind(E.PAUSE, () => { state.playing = false; setPlayGlyph(false); });
+
+    w.bind(E.PLAY_PROGRESS, (e) => {
+      if (isFinite(e.currentPosition)) state.pos = e.currentPosition;
+      if (isFinite(e.duration) && e.duration > 0 && e.duration !== state.dur) {
+        state.dur = e.duration;
+        el.tEnd.textContent = fmt(msToS(e.duration));
+      }
+      paintTime();
+    });
+
+    w.bind(E.SEEK, (e) => {
+      if (isFinite(e.currentPosition)) state.pos = e.currentPosition;
+      paintTime();
+    });
+
+    w.bind(E.FINISH, () => { state.playing = false; setPlayGlyph(false); next(); });
+
+    w.bind(E.ERROR, () => {
+      el.onairLabel.textContent = 'FAULT';
+      el.eyebrow.textContent = '▲ UPLINK FAILED — TRACK UNAVAILABLE';
+    });
+
+    state.widget = w;
+    return true;
+  }
+
+  const send = (fn, ...args) => {
+    if (state.widget && state.widgetReady) {
+      try { state.widget[fn](...args); return true; } catch (_) {}
+    }
+    return false;
+  };
 
   /* ── boot sequence ───────────────────────────────────────────────── */
   const BOOT = [
@@ -113,8 +202,7 @@
     if (!w || !w.length) return null;
     if (!waveCache || waveCache.id !== t.id) {
       const max = Math.max(1, ...w);
-      const norm = w.map((v) => (v / max) * WAVE_MAX);
-      waveCache = { id: t.id, data: norm };
+      waveCache = { id: t.id, data: w.map((v) => (v / max) * WAVE_MAX) };
     }
     return waveCache.data;
   }
@@ -145,14 +233,14 @@
       return;
     }
 
-    const dur = state.tracks[state.index].duration || 1;
-    const pos = state.scrubbing ? state.scrubPos : audio.currentTime;
+    const dur = state.dur || (state.tracks[state.index].duration * 1000) || 1;
+    const pos = state.scrubbing ? state.scrubPos : state.pos;
     const played = Math.max(0, Math.min(1, pos / dur));
+    const isPlaying = state.playing;
 
     const bars = Math.max(48, Math.floor(cssW / 4));
     const step = cssW / bars;
     const bw = Math.max(1.4, step * 0.55);
-    const isPlaying = !audio.paused && !audio.ended;
 
     for (let i = 0; i < bars; i++) {
       const from = Math.floor((i / bars) * data.length);
@@ -162,10 +250,8 @@
 
       const h = Math.max(2, (peak / WAVE_MAX) * (cssH - 16));
       const x = i * step + (step - bw) / 2;
-      const y = mid - h / 2;
 
-      const t = i / bars;
-      if (t <= played) {
+      if (i / bars <= played) {
         ctx.fillStyle = isPlaying ? '#b8ff1e' : '#8fbf1a';
         ctx.shadowColor = 'rgba(184,255,30,.55)';
         ctx.shadowBlur = 7;
@@ -173,18 +259,27 @@
         ctx.fillStyle = '#22304c';
         ctx.shadowBlur = 0;
       }
-      ctx.fillRect(x, y, bw, h);
+      ctx.fillRect(x, mid - h / 2, bw, h);
     }
     ctx.shadowBlur = 0;
 
     ctx.strokeStyle = '#1e2a42';
     ctx.beginPath(); ctx.moveTo(0, mid); ctx.lineTo(cssW, mid); ctx.stroke();
 
-    const px = played * cssW;
     ctx.strokeStyle = '#ff3b3b';
     ctx.lineWidth = 1;
-    ctx.beginPath(); ctx.moveTo(px, 0); ctx.lineTo(px, cssH); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(played * cssW, 0); ctx.lineTo(played * cssW, cssH); ctx.stroke();
     ctx.lineWidth = 1;
+  }
+
+  function paintTime() {
+    const dur = state.dur || (state.tracks[state.index]?.duration ?? 0) * 1000;
+    el.tNow.textContent = fmt(msToS(state.pos));
+    el.tEnd.textContent = fmt(msToS(dur));
+    el.tLeft.textContent = fmt(Math.max(0, msToS(dur - state.pos)));
+    if (dur > 0) {
+      el.wave.setAttribute('aria-valuenow', String(Math.round((state.pos / dur) * 100)));
+    }
   }
 
   /* ── seek ────────────────────────────────────────────────────────── */
@@ -195,24 +290,30 @@
   }
 
   const scrubStart = (e) => {
-    if (state.index < 0 || !audio.duration) return;
+    const t = state.tracks[state.index];
+    if (!t) return;
     e.preventDefault();
     state.scrubbing = true;
-    state.scrubPos = posFromEvent(e) * audio.duration;
+    const dur = state.dur || t.duration * 1000;
+    state.scrubPos = posFromEvent(e) * dur;
+    state.pos = state.scrubPos;
     drawWave();
+    paintTime();
   };
   const scrubMove = (e) => {
     if (!state.scrubbing) return;
     e.preventDefault();
-    state.scrubPos = posFromEvent(e) * audio.duration;
+    const dur = state.dur || (state.tracks[state.index].duration * 1000);
+    state.scrubPos = posFromEvent(e) * dur;
+    state.pos = state.scrubPos;
     drawWave();
+    paintTime();
   };
   const scrubEnd = (e) => {
     if (!state.scrubbing) return;
     e.preventDefault();
     state.scrubbing = false;
-    const t = state.tracks[state.index];
-    if (t && isFinite(state.scrubPos)) audio.currentTime = state.scrubPos;
+    send('seekTo', Math.round(state.scrubPos));
   };
 
   el.wave.addEventListener('mousedown', scrubStart);
@@ -223,55 +324,17 @@
   el.wave.addEventListener('touchend', scrubEnd);
 
   el.wave.addEventListener('keydown', (e) => {
-    if (!isFinite(audio.duration)) return;
-    const stepT = e.shiftKey ? 30 : 5;
-    if (e.key === 'ArrowRight') { audio.currentTime = Math.min(audio.duration, audio.currentTime + stepT); e.preventDefault(); }
-    if (e.key === 'ArrowLeft')  { audio.currentTime = Math.max(0, audio.currentTime - stepT); e.preventDefault(); }
+    const dur = state.dur || (state.tracks[state.index]?.duration ?? 0) * 1000;
+    if (!dur) return;
+    const stepMs = (e.shiftKey ? 30 : 5) * 1000;
+    if (e.key === 'ArrowRight') { state.pos = Math.min(dur, state.pos + stepMs); send('seekTo', state.pos); paintTime(); drawWave(); e.preventDefault(); }
+    if (e.key === 'ArrowLeft')  { state.pos = Math.max(0, state.pos - stepMs); send('seekTo', state.pos); paintTime(); drawWave(); e.preventDefault(); }
   });
 
-  /* ── web audio analyser (best effort) ────────────────────────────── */
-  // Routing a media element through Web Audio is what powers the live EQ, but
-  // it also means the browser now requires CORS on the stream: if a future
-  // CDN host omits the header, the element goes silent instead of playing.
-  // So pre-flight one byte per host before ever attaching the graph.
-  const corsCache = new Map();
-
-  async function corsOk(url) {
-    const host = new URL(url).host;
-    if (corsCache.has(host)) return corsCache.get(host);
-    let ok = false;
-    try {
-      const r = await fetch(url, { headers: { Range: 'bytes=0-0' }, mode: 'cors' });
-      ok = r.ok || r.status === 206;
-      if (r.status === 206) { try { await r.arrayBuffer(); } catch (_) {} }
-    } catch (_) {
-      ok = false;
-    }
-    corsCache.set(host, ok);
-    return ok;
-  }
-
-  async function initWebAudio(track) {
-    if (state.ctx || !track) return;
-    if (!(await corsOk(track.stream))) return;   // leave the element alone
-    try {
-      const Ctx = window.AudioContext || window.webkitAudioContext;
-      if (!Ctx) return;
-      state.ctx = new Ctx();
-      state.srcNode = state.ctx.createMediaElementSource(audio);
-      state.analyser = state.ctx.createAnalyser();
-      state.analyser.fftSize = 128;
-      state.analyser.smoothingTimeConstant = 0.72;
-      state.srcNode.connect(state.analyser);
-      state.analyser.connect(state.ctx.destination);
-      state.freq = new Uint8Array(state.analyser.frequencyBinCount);
-      state.useWebAudio = true;
-    } catch (err) {
-      state.analyser = null;
-      state.useWebAudio = false;
-    }
-  }
-
+  /* ── equaliser ───────────────────────────────────────────────────── */
+  // No Web Audio: the stream lives inside a cross-origin widget iframe, so it
+  // cannot be tapped. The bars are driven by the real waveform windowed around
+  // the playhead, which is honest about being a visualisation, not an analyser.
   function buildEq() {
     el.eq.innerHTML = '';
     state.eqBars = Array.from({ length: 24 }, () => {
@@ -284,33 +347,18 @@
   function drawEq() {
     state.rafEq = requestAnimationFrame(drawEq);
     if (!state.eqBars) return;
-    const playing = !audio.paused && !audio.ended && state.index >= 0;
-
-    let data = null;
-    if (playing && state.useWebAudio && state.analyser) {
-      state.analyser.getByteFrequencyData(state.freq);
-      data = state.freq;
-    }
-
     const w = samples();
+    const dur = state.dur || (state.tracks[state.index]?.duration ?? 0) * 1000;
+    const p = dur ? state.pos / dur : 0;
+
     for (let i = 0; i < state.eqBars.length; i++) {
       let v;
-      if (!playing) {
+      if (!state.playing || !w) {
         v = 0.05 + Math.random() * 0.03;
-      } else if (data && data.some((n) => n > 0)) {
-        const lo = Math.floor((i / state.eqBars.length) * data.length);
-        const hi = Math.max(lo + 1, Math.floor(((i + 1) / state.eqBars.length) * data.length));
-        let m = 0;
-        for (let k = lo; k < hi; k++) m = Math.max(m, data[k]);
-        v = m / 255;
       } else {
-        // CORS blocked the analyser - drive the bars off the real waveform
-        // window around the playhead instead of showing a dead display.
-        const p = audio.currentTime / (state.tracks[state.index].duration || 1);
-        const centre = Math.floor(p * w.length);
-        const span = 40;
-        const k = centre + (i - state.eqBars.length / 2) * 2.2;
-        v = k >= 0 && k < w.length ? w[Math.floor(k)] / WAVE_MAX : 0;
+        const centre = p * w.length + (i - state.eqBars.length / 2) * 2.2;
+        const k = Math.floor(centre);
+        v = k >= 0 && k < w.length ? w[k] / WAVE_MAX : 0;
         v *= 0.55 + 0.45 * Math.abs(Math.sin(Date.now() / 90 + i));
       }
       state.eqBars[i].style.height = `${Math.max(6, Math.min(100, v * 100))}%`;
@@ -324,9 +372,12 @@
     const t = state.tracks[i];
 
     waveCache = null;
-    audio.src = t.stream;
-    audio.load();
-    initWebAudio(t);
+    state.pos = 0;
+    state.dur = t.duration * 1000;
+    state.playing = false;
+    state.widgetReady = false;
+    state.wantPlay = !!autoplay;
+    setPlayGlyph(false);
 
     el.art.src = t.artwork || '';
     el.art.alt = t.title;
@@ -336,31 +387,57 @@
       `<span class="chip" style="--tint:${t.tint}">${t.genre}</span> · ${fmt(t.duration)} · ` +
       `${t.plays.toLocaleString()} plays · ${t.likes.toLocaleString()} likes · ${t.released}`;
     el.sc.href = t.permalink;
-    el.onairLabel.textContent = 'LOCKED';
+    el.onairLabel.textContent = 'TUNING';
     el.tEnd.textContent = fmt(t.duration);
 
     markRow();
     drawWave();
+    paintTime();
 
-    if (autoplay) {
-      const p = audio.play();
-      if (p && p.catch) p.catch(() => setPlayGlyph(false));
+    if (!initWidget(t)) {
+      el.eyebrow.textContent = '▲ WIDGET API UNAVAILABLE — RELOAD TO RESTORE UPLINK';
+      el.onairLabel.textContent = 'FAULT';
+      return;
+    }
+
+    // load() re-points the same iframe, so bound listeners survive. Skipping it
+    // on the very first call avoids reloading the src initWidget() just set.
+    if (state.widgetPrimed) {
+      // load() takes the *item* URL, not a widget URL - handing it a widget
+      // URL makes it wrap the whole thing again and the player 404s.
+      state.widget.load(t.permalink, {
+        ...WIDGET_OPTS,
+        auto_play: !!autoplay,
+        callback: () => {
+          state.widgetReady = true;
+          if (state.wantPlay) state.widget.play();
+        },
+      });
+    } else {
+      state.widgetPrimed = true;
+      if (autoplay) {
+        const go = () => { state.widgetReady = true; state.widget.play(); };
+        el.frame.addEventListener('load', go, { once: true });
+      }
     }
   }
 
   function toggle() {
     if (state.index < 0) { load(0, true); return; }
-    if (audio.paused) {
-      if (state.ctx && state.ctx.state === 'suspended') state.ctx.resume();
-      audio.play().catch(() => setPlayGlyph(false));
+    if (state.playing) {
+      state.wantPlay = false;
+      send('pause');
     } else {
-      audio.pause();
+      state.wantPlay = true;
+      send('play');
     }
   }
 
   function next() { load((state.index + 1) % state.tracks.length, true); }
+
   function prev() {
-    if (audio.currentTime > 3) { audio.currentTime = 0; return; }
+    // Restart the track first, like a record deck, before stepping back.
+    if (state.pos > 3000) { state.pos = 0; send('seekTo', 0); paintTime(); drawWave(); return; }
     load((state.index - 1 + state.tracks.length) % state.tracks.length, true);
   }
 
@@ -374,37 +451,12 @@
   el.play.addEventListener('click', toggle);
   el.next.addEventListener('click', next);
   el.prev.addEventListener('click', prev);
-  el.vol.addEventListener('input', () => { audio.volume = el.vol.value / 100; });
-
-  /* ── audio events ────────────────────────────────────────────────── */
-  audio.addEventListener('play',  () => setPlayGlyph(true));
-  audio.addEventListener('pause', () => setPlayGlyph(false));
-  audio.addEventListener('ended', next);
-  audio.addEventListener('loadedmetadata', () => {
-    const t = state.tracks[state.index];
-    if (t && isFinite(audio.duration) && Math.abs(audio.duration - t.duration) > 2) {
-      t.duration = Math.round(audio.duration);
-      el.tEnd.textContent = fmt(t.duration);
-    }
-    drawWave();
-  });
-  audio.addEventListener('error', () => {
-    el.eyebrow.textContent = '▲ STREAM UNAVAILABLE — PRESIGNED URL EXPIRED, REBUILD CATALOGUE';
-    el.onairLabel.textContent = 'FAULT';
-  });
+  el.vol.addEventListener('input', () => send('setVolume', Number(el.vol.value)));
 
   /* ── render loop ─────────────────────────────────────────────────── */
   function frame() {
     requestAnimationFrame(frame);
     if (state.index < 0) return;
-    const d = audio.duration;
-    if (state.scrubbing) return;
-    el.tNow.textContent = fmt(audio.currentTime);
-    el.tLeft.textContent = fmt((isFinite(d) ? d : 0) - audio.currentTime);
-    if (isFinite(d) && d > 0) {
-      const p = Math.min(100, (audio.currentTime / d) * 100);
-      el.wave.setAttribute('aria-valuenow', String(Math.round(p)));
-    }
     drawWave();
   }
 
@@ -566,7 +618,6 @@
       return;
     }
 
-    audio.volume = el.vol.value / 100;
     buildEq();
     drawEq();
     buildGenres();
@@ -575,7 +626,7 @@
     buildFooter();
     markRow();
 
-    // Preload the first track so the player is armed before you press play.
+    // Arm the first track so the player is ready before you press play.
     load(0, false);
     state.ready = true;
     requestAnimationFrame(frame);

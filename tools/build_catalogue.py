@@ -2,7 +2,7 @@
 PHANTOMTAPE // 103.7  --  catalogue builder
 
 Pulls the public DJ PHANTOMTAPE catalogue off SoundCloud and bakes it into
-static JSON the site can play from. Run it, commit the output, deploy.
+static JSON the site renders from. Run it, commit the output, deploy.
 
     python tools/build_catalogue.py
 
@@ -10,8 +10,11 @@ Design notes
 ------------
 * Uses the same unauthenticated public client id that SoundCloud ships to every
   visitor of soundcloud.com. Read-only, no account, no token, nothing secret.
-* Stream URLs from SoundCloud are presigned and expire, so they are resolved
-  fresh on every build. `.github/workflows/refresh.yml` re-runs this nightly.
+* NO stream URLs are stored. SoundCloud hands out presigned CloudFront links
+  that die roughly 20 minutes after they are issued, so baking them into a
+  static file guarantees a dead player. Audio is served live by the official
+  Widget API instead (see assets/app.js), which resolves a fresh stream per
+  track on demand. This build only handles metadata and waveforms.
 * Waveforms come back as 1800 samples per track; we downsample to WAVEFORM_POINTS
   and round to ints so the payload stays small enough to ship as plain JSON.
 """
@@ -112,31 +115,6 @@ def pick_artwork(track: dict) -> str | None:
     return art
 
 
-def resolve_stream(s: requests.Session, track: dict) -> dict | None:
-    """Resolve a fresh presigned progressive MP3 URL.
-
-    Progressive first (a single range-requestable file, which is what a
-    scrubbable waveform player wants), then HLS as a fallback.
-    """
-    transcodings = ((track.get("media") or {}).get("transcodings")) or []
-    ordered = sorted(
-        transcodings,
-        key=lambda t: 0 if t.get("format", {}).get("protocol") == "progressive" else 1,
-    )
-
-    for t in ordered:
-        proto = t.get("format", {}).get("protocol")
-        try:
-            payload = get_json(s, t["url"], params={"client_id": CLIENT_ID})
-        except Exception:
-            continue
-        url = payload.get("url")
-        if not url:
-            continue
-        return {"url": url, "protocol": proto}
-    return None
-
-
 def main() -> int:
     s = session()
     tracks = fetch_tracks(s)
@@ -153,12 +131,6 @@ def main() -> int:
         tid = t["id"]
         label = f"[{i:>2}/{len(tracks)}] {t['title'][:44]}"
 
-        stream = resolve_stream(s, t)
-        if not stream:
-            failed.append(tid)
-            print(f"  !! {label}  no stream")
-            continue
-
         wf: list[int] = []
         wf_url = t.get("waveform_url")
         if wf_url:
@@ -167,10 +139,13 @@ def main() -> int:
                 wf = downsample(raw.get("samples") or [], WAVEFORM_POINTS)
             except Exception as exc:
                 print(f"  ~~ {label}  waveform failed: {exc}")
+        else:
+            failed.append(tid)
         if wf:
             waveforms[str(tid)] = wf
 
         genre = t.get("genre") or "Unclassified"
+        # No stream field on purpose - see the module docstring.
         catalogue.append(
             {
                 "id": tid,
@@ -185,14 +160,12 @@ def main() -> int:
                 "released": (t.get("display_date") or t.get("created_at") or "")[:10],
                 "artwork": pick_artwork(t),
                 "permalink": t.get("permalink_url"),
-                "stream": stream["url"],
-                "protocol": stream["protocol"],
             }
         )
-        print(f"  ok {label}  {catalogue[-1]['duration']}s  {stream['protocol']}")
+        print(f"  ok {label}  {catalogue[-1]['duration']}s")
 
     if not catalogue:
-        print("resolved zero streams - aborting", file=sys.stderr)
+        print("no usable tracks - aborting", file=sys.stderr)
         return 1
 
     profile = get_json(

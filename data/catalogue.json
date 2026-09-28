@@ -64,7 +64,7 @@
       "likes_count": 1,
       "permalink": "lonely-remix",
       "permalink_url": "https://soundcloud.com/phantomtape/lonely-remix",
-      "playback_count": 7,
+      "playback_count": 37,
       "public": true,
       "publisher_metadata": {
        "id": 2408961174,
@@ -154,7 +154,7 @@
       },
       "station_urn": "soundcloud:system-playlists:track-stations:2408961174",
       "station_permalink": "track-stations:2408961174",
-      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJBVSIsInN1YiI6IiIsInJpZCI6IiIsImlhdCI6MTc5MDU4NTk3MX0.OmXUcmvfe8OfAeFxacbxBZAhurCKzCTMxj-bih-Zays",
+      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJBVSIsInN1YiI6IiIsInJpZCI6IiIsImlhdCI6MTc5MDU4ODExNH0.XK-VyuXVYrqMoOM121X_DbM4FrXM8ZuDORaYWOvf07U",
       "monetization_model": "NOT_APPLICABLE",
       "policy": "ALLOW",
       "user": {
@@ -328,7 +328,7 @@
       },
       "station_urn": "soundcloud:system-playlists:track-stations:2407564371",
       "station_permalink": "track-stations:2407564371",
-      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJBVSIsInN1YiI6IiIsInJpZCI6IjFmZDQwZWJiLTZkNDMtNDQ3Ny05MDc5LTEzNTg3MGY5MzQzZCIsImlhdCI6MTc5MDU4NTk3MX0.fUEPsfrImzO8yq01h-InNyHNLsIWf46rQVZ1T_xmAtM",
+      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJBVSIsInN1YiI6IiIsInJpZCI6IjFmZDQwZWJiLTZkNDMtNDQ3Ny05MDc5LTEzNTg3MGY5MzQzZCIsImlhdCI6MTc5MDU4ODExNH0.-jw2iDH1ZKd_JI37mSr4iuIK9kCBCgMpTPvX3VewgNg",
       "monetization_model": "BLACKBOX",
       "policy": "MONETIZE",
       "user": {
@@ -502,7 +502,7 @@
       },
       "station_urn": "soundcloud:system-playlists:track-stations:2407560399",
       "station_permalink": "track-stations:2407560399",
-      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJBVSIsInN1YiI6IiIsInJpZCI6ImQ1MDdmMDlkLWViMjctNDRjYy1hMjVmLWI2YzE3ZDI1YTE2NCIsImlhdCI6MTc5MDU4NTk3MX0.WhMGNiqm9L_2RE404R3ZRsmFHKLn_arrkyPrxATn3sQ",
+      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJBVSIsInN1YiI6IiIsInJpZCI6ImQ1MDdmMDlkLWViMjctNDRjYy1hMjVmLWI2YzE3ZDI1YTE2NCIsImlhdCI6MTc5MDU4ODExNH0.Bs7M4KdB2mvNi2DoAuZK0mHuKfYhvMi0W4Yw6a9Az5U",
       "monetization_model": "BLACKBOX",
       "policy": "MONETIZE",
       "user": {
@@ -676,7 +676,7 @@
       },
       "station_urn": "soundcloud:system-playlists:track-stations:2407559904",
       "station_permalink": "track-stations:2407559904",
-      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJBVSIsInN1YiI6IiIsInJpZCI6IjIxOGU2ZmMyLWYyNGItNGM4Ny05NDhhLTVjNGNjODg3MWE5NCIsImlhdCI6MTc5MDU4NTk3MX0.VyRgtFlvZfGghaMxIpxXiZsmS03CRe2qVrsie4orHro",
+      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJBVSIsInN1YiI6IiIsInJpZCI6IjIxOGU2ZmMyLWYyNGItNGM4Ny05NDhhLTVjNGNjODg3MWE5NCIsImlhdCI6MTc5MDU4ODExNH0.okY5d91pmFsMDa6ExZPHe-qW8dfcK3h6Fw7_4ZtwnPA",
       "monetization_model": "BLACKBOX",
       "policy": "MONETIZE",
       "user": {
@@ -850,7 +850,7 @@
       },
       "station_urn": "soundcloud:system-playlists:track-stations:2405773482",
       "station_permalink": "track-stations:2405773482",
-      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJBVSIsInN1YiI6IiIsInJpZCI6IjM4ZTJjNzFmLTg0ZjUtNDE3Ny04ODY4LWRjZmQ2YzE0NjBmMSIsImlhdCI6MTc5MDU4NTk3MX0.Jxv2uQsUVT_uneUSQ_-wL8hH2LkRCm0jNtlEQZAxc5c",
+      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJBVSIsInN1YiI6IiIsInJpZCI6IjM4ZTJjNzFmLTg0ZjUtNDE3Ny04ODY4LWRjZmQ2YzE0NjBmMSIsImlhdCI6MTc5MDU4ODExNH0.emfclrYt5AJaIMOcq-q4T1Wyub5HkVITSVXtqEzyJAo",
       "monetization_model": "BLACKBOX",
       "policy": "MONETIZE",
       "user": {
@@ -888,7 +888,7 @@
   "frequency": "103.7",
   "track_count": 60,
   "total_ms": 11555000,
-  "built": "2026-09-28T08:59:29Z"
+  "built": "2026-09-28T09:35:13Z"
  },
  "tracks": [
   {
@@ -898,14 +898,12 @@
    "duration": 220,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 6,
+   "plays": 37,
    "likes": 1,
    "reposts": 1,
    "released": "2026-09-28",
    "artwork": "https://i1.sndcdn.com/artworks-OylimMUiWyuB13I0-zkT4KA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/lonely-remix",
-   "stream": "https://cf-media.sndcdn.com/n6jO23j5xdI7.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vbjZqTzIzajV4ZEk3LjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2Mjg2fX19XX0_&Signature=SqAe64tVXJYlg-49kB6JQJgwCwUnFoh2jt2JL7kat1sktJETxCNfdXUGcc6KTCvhxTRcBOZyXRakkMqM7DsOj3tirgSydhRuVctCwS2mUnoBBmPBmHzk0sZMsUNRz5-rFmghzub3Rbw6~i4gtmST6ydieG~0Xt1JvicdzT755ZnptPGRm0DGc3-7YIh7mZfieJW8UaL~PontgFO1R3OgvYWeL63nnatvloLsbEJWbu3uvTAWMnUdtdjP~btrhoxROxw8rDFm~tHau~b8ifQ-ebVyzP3LhMZa5rqzA9b~bXCiSRm5A0lCJdHw97kCe8LgpcK-AsI725h6IgSnNXqfwQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/lonely-remix"
   },
   {
    "id": 2407564371,
@@ -919,9 +917,7 @@
    "reposts": 6,
    "released": "2026-09-25",
    "artwork": "https://i1.sndcdn.com/artworks-9bOdCW5mm9VvjzZL-oxzDeA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/nosebleed-remix",
-   "stream": "https://cf-media.sndcdn.com/VLbw46CJkHB1.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vVkxidzQ2Q0prSEIxLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjU3fX19XX0_&Signature=CF2fjjhZ7yR9Zt0x8SJ3c0RqtGKKkUGSCqKxpAtlJesU-1xEFVzGhHdFt8wpuaFAlTuYRMZSUm~dJ30PiE7frFlEFlvTkff8rWKcDnhpH4rBXXPJtoTPOB7whEZ89iVTznONSDJIw0~UHuQwVlyoMZHFwI~TjPUHVrSG0K4K2tqXBsp3zl0bqd~KHfAU-2FzFzGFaA6Nl1PibnDCfM4FPhMKO5oHozgBziFWElMJbhDqX3LIEHDmuYaQf5i2eIKzvREJ9E8Yg6nDEAsQW6-VIBCPuvbDsN5rMJANxrTKdmA-P5nq69l~Ik0NnYsio-5OYP-4joKejYYf2jsCJ3dgGQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/nosebleed-remix"
   },
   {
    "id": 2407560399,
@@ -935,9 +931,7 @@
    "reposts": 2,
    "released": "2026-09-25",
    "artwork": "https://i1.sndcdn.com/artworks-z6vMw7FUMB4rx0vW-mZfxiA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/beggin-remix",
-   "stream": "https://cf-media.sndcdn.com/DToqWB5Ros5K.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vRFRvcVdCNVJvczVLLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjM3fX19XX0_&Signature=ahTbYDe041L4rQdvIGu3tUvPvezI-QObf5SEbmJIwTONzWTHDC40ToHG6RoIfGRX7JjLEUhSs~~e3FBx~I55W6nV0mMy0dhCIr2lRXS5YRQvou7icahkObSOjglvFOaM~a2jvUJjPxm9gUZz1WSyGbUMOjw~-BIh8QRUVCx7q-JLEfj~LX8IgqVMJYf339irlyiIOQKYsMyZOkC79vt8rC5r2exOGORUUgZm5CCwiv8w8KgCYxQxOiQ2LGVfjacj1XiHh1QG~2Vnxy4uYDIQCgK~94-RJ01pHe2nYpFviEj0adEedAfIHSSFv1xsyS-PNBfe8OV7VRtKn2LtEtTvhw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/beggin-remix"
   },
   {
    "id": 2407559904,
@@ -951,9 +945,7 @@
    "reposts": 0,
    "released": "2026-09-25",
    "artwork": "https://i1.sndcdn.com/artworks-gZzJXprBaKpKMS83-0AXzCg-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/ugliest-remix",
-   "stream": "https://cf-media.sndcdn.com/j05W7SV4FyuW.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vajA1VzdTVjRGeXVXLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjIwfX19XX0_&Signature=avv9sD8sk45NJV0H8zq9qnF053ld0hW7Sojbd4Jzx1OpwRq9gLT9CpQn8Wdm9Ob5j9XBpvZtRs-pMpN0Azk9Tce3mN7WKPwOngGqYx40A6ULy7HZXo8wu6fyLnzu~G4CxVsmcl2MtjnHru1lgqnJxD8-lKOi~3ms~EUVfvid~4o-cwVPqtrqMK5pTWoBhwslT4LuBT7eBPKdqLHquTQvWVQFBjoU2TUhsxUSW4OMss5H-QaOy9iLPXJ-xaNhf~xR~9C9p8l1zaGEUMWYxdS2NddY66VhVE9rmOyAaas8AA3jl2PE9B4gF424~neRbNakZfPj2oyEIRnTQwVoLjpN2g__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/ugliest-remix"
   },
   {
    "id": 2405773482,
@@ -967,9 +959,7 @@
    "reposts": 0,
    "released": "2026-09-23",
    "artwork": "https://i1.sndcdn.com/artworks-AzmEsKbpPwicepzV-uzfyyA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/let-it-go-remix",
-   "stream": "https://cf-media.sndcdn.com/P6TiESHwZnzu.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vUDZUaUVTSHdabnp1LjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2Mjc0fX19XX0_&Signature=Jr1QTdYGjFjK45GSVA8mTgu3q7nxqG6lG2mGpy8Fz-lDTszWq9uq~gVJU9iJ4mKiTCrvcIwjthe--pmxw2QV4YKl4m~A-ZF1Dgf~gLvaxMIAz0kQh5xTnfPX~QieaCs8NbmsPaVklqGEX55HaFa5gA~Rc02xOLuyMODcojpKGUdyMk06SHyAF4ixO~iEDCIsXD4r28DalmQUMVSbOuL~JYthmJnVdhXaPBnZgLX-JsANQJBH0bePQ288WUjY5DDiah7kfl~03EicrQ1h7vU765VG0foKYTAt7bZTtV9G4jCzW0oAm50I211oLTmu67-3vAwweGc8qe0CVAVMigAgKQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/let-it-go-remix"
   },
   {
    "id": 2405023254,
@@ -983,9 +973,7 @@
    "reposts": 1,
    "released": "2026-09-21",
    "artwork": "https://i1.sndcdn.com/artworks-BDjcKMZA7lruyqLF-78Rldw-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/overnight-celebrity-remix",
-   "stream": "https://cf-media.sndcdn.com/SMsUmpjmEMvZ.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vU01zVW1wam1FTXZaLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MzQ0fX19XX0_&Signature=FAjFg9TQMSk5-tj9uTUEh-fgteHbyTSLIzMwRM2iVS-j~s1JLF6K-8P9UBh4SbVGPfTBDXzRkg4C6fOgQAsE4OmnVuX5uOsnrQ-zed0DTyEyTNqCePCRxTFL6xSC~Bk9kM8N21wp93e4ghLEC0gdMJGSKP4tb4FzrwNSTqHe9LHo9byndG1FC1nwC7DM1yQ0OV0LogZrZlBD0qbK6YhwsubQxqqZAUajRXM2mfC2WLAenyyr~7x5WYILb51xLcCqD0m4N1xuHxFRPwl83sVs2KOCB0OyVrTfh6dqV-yo2mu-kBzVYdmeWpiVvsIqtDJAztduYQkNh8I8b5l7GYF~kg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/overnight-celebrity-remix"
   },
   {
    "id": 2404771089,
@@ -999,9 +987,7 @@
    "reposts": 1,
    "released": "2026-09-21",
    "artwork": "https://i1.sndcdn.com/artworks-LdTAZkruaXUvZ9qm-VTeKrw-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/act-a-fool-remix",
-   "stream": "https://cf-media.sndcdn.com/QjGgHnlOTqLj.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vUWpHZ0hubE9UcUxqLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjkyfX19XX0_&Signature=bOQjLnRsenQ6g48c5C7ssR8eyAbm2fefAJcR1Dm1rziB42372OcaaUNTNV4L~gfE-NmTy5H8s~FrzM-xZqrINEhCo3NibL7JsRKhNaIo-xTqg1mlEwfSXLknQcIc6sYfSQVQW~kWX03c27cOnEIuiyFdArfdz39DF1LhoA5dWStOw4f-GjGZ-9r4Enxf~s9yqGBh~BU7AHZDrZSHsOfbiAzy7peGsBgaW0hKQkva8MUytye5MXWcsVp5~kfDhJGi877fS6Gm4aZjO4Z4kaT1J1BTvMsDN~IYDjHRVmY1uNR5963Fknu-vdfCUf9n6KYDBDASKv9iwLIKjLlUO9e9QA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/act-a-fool-remix"
   },
   {
    "id": 2404766196,
@@ -1015,9 +1001,7 @@
    "reposts": 1,
    "released": "2026-09-21",
    "artwork": "https://i1.sndcdn.com/artworks-2vktbP4JkgQCFIJa-bQtF6g-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/right-thur-remix",
-   "stream": "https://cf-media.sndcdn.com/aiuyOw8UmhKl.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vYWl1eU93OFVtaEtsLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2Mjc5fX19XX0_&Signature=Vc~qPNWitdTHw3zI~5aNS4hGRRoXzla3NeSK4lM2dV7~dVYskiLsF4-SSPVICsLxozI2h-pXn27Z7HsmgkFz2~svOQvARmWHhf6U60w4-oUk4~gW2i0huYJXEyvRtOnphnz1y8P2MQhx~GCEYODUO3risWH3WQoKFMLmg9IrEIle7Zg0Uv5Mjb8bshAbtS23U4SvKAx74EWdZ5RvZJ7QpYFxYY~ViCcSdvYGZnnCS8LzoDKoAF9DyvesdmLPMO-ytHaNHCKzMUy3HBCO5MTneFPnPQexKMu1jOjMsfohcIW5KZ9SNsIZ99PMzIMhF-WIJ3qLIsq3jsmz3rm-1aKnGw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/right-thur-remix"
   },
   {
    "id": 2404760109,
@@ -1026,14 +1010,12 @@
    "duration": 229,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 1123,
+   "plays": 1124,
    "likes": 10,
    "reposts": 0,
    "released": "2026-09-21",
    "artwork": "https://i1.sndcdn.com/artworks-le3wihdo3RtIbXPy-0w2n6Q-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/heatwaves-remix",
-   "stream": "https://cf-media.sndcdn.com/9yJc4n8oyiMd.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vOXlKYzRuOG95aU1kLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2Mjk4fX19XX0_&Signature=VIaAjfSeZiCBkA7ftJcrX6OdQI-DZnvlgrdDSQ-tMScm5qxk4AJG7rylLcmiwkASMvHBS1596qcFBGiZm6904i18jqMDw0VCcZ9FTBxPQTQ01bUMEd8YU~FS68jNPWzbVZ7Z2N4~E7migHtYVbKxp0exhUoBQ16dsFs0LuCohKXQruuafT0MowmQ~ZQISv44ItRk5Aw~L~K0yFgXfeoMXmZJ8vtxuFlv2LL8aGSMLdgZiZAv9arcSwTANQQ82j0UHvlz02r6TdzqwvMPB-TvxMUCG35HEY4-VYjInR0FHk9Z0HatL54pWLOeNwGoXRwWLBsIhIEWubi6B8RxHpCWWg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/heatwaves-remix"
   },
   {
    "id": 2403465705,
@@ -1047,9 +1029,7 @@
    "reposts": 0,
    "released": "2026-09-19",
    "artwork": "https://i1.sndcdn.com/artworks-ERdVnXsiyyUyhbMF-fttDnw-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/bass-tester",
-   "stream": "https://cf-media.sndcdn.com/w5iUkq1JJUBV.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vdzVpVWtxMUpKVUJWLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MzUyfX19XX0_&Signature=cYS91k80cRgptt7nfbvGAICV00L17wrAiGtwzkBBsH201H3mpv79FC10~VMwhL2tmPnCh1sUiGFmJtAg6L2Chd5C4p1Mquoem8eXDBUWYjopVMmgywyXIk-27ORrNfpySKolkXnrsa6ypeBDVHnCINvFBoL8BTV41cdyz6HYGFgqMKqMftwB7hDfP5KjxymWZYOKk8rHhFw6PVBQKZ653kkIAh3sVN3z5E4RBi2cPng20BmWXlEuvZxtnF7a9G5qt0uBGL0hrB8AFlTNN88Oh-v2TAv4~85v9eUVqDFk~1iafxkMJ3Gbb1I8dSUsTdecY44u0QIa90xCewfYUqzpUA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/bass-tester"
   },
   {
    "id": 2402852067,
@@ -1058,14 +1038,12 @@
    "duration": 123,
    "genre": "Techno",
    "tint": "#00E5FF",
-   "plays": 149,
+   "plays": 150,
    "likes": 3,
    "reposts": 1,
    "released": "2026-09-18",
    "artwork": "https://i1.sndcdn.com/artworks-nCumGKZLbpPODRIa-BACdyw-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/children-of-the-nosebleed",
-   "stream": "https://cf-media.sndcdn.com/2BmnknA7JCe9.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vMkJtbmtuQTdKQ2U5LjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MTkzfX19XX0_&Signature=SYUiVxQwBSqPBwQ2bIcMs7fof5H0aCW3zJiUYC1OOjXQ~dv-kLY9LyUhn7DrAh7lo-KChMewDyL0ZbdLOYEwGlJ79fwbtioR6MVj~Js8r-v3Yw0d4elI9a9netuzKR0WGmN9YZxq2FLzHwnN88NI97Ab2Lud89tyyxQcdEoh0W6I~CaX0nw-LnwbwVjz8KcpGwvvW4~o0QxfZPFy84eirMCAnqnjip-h7HmMUdXQ9lcsrL1vLcFUDWner62RHdhZlajZYwyM7KLF99bTbUS5swBnIPrjUanQoI9gXU36MCH7ccWRshOkvrAc82HHdI9f8b4AaFVMK2z9c56xeqMJ~g__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/children-of-the-nosebleed"
   },
   {
    "id": 2402841048,
@@ -1074,14 +1052,12 @@
    "duration": 333,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 186,
+   "plays": 187,
    "likes": 5,
    "reposts": 0,
    "released": "2026-09-18",
    "artwork": "https://i1.sndcdn.com/artworks-hik88VWrjpIUDjI9-TWOfdw-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/ready-or-not-remix",
-   "stream": "https://cf-media.sndcdn.com/KA1aanPBePDA.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vS0ExYWFuUEJlUERBLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2NDAzfX19XX0_&Signature=IQsQsO6FCany1nyZGno5T28Iwx-PWzNNz-nh6Aa3~lzU6viJM~WqYzB6TiH6tuyVrz~lpl-HyaoXm9RG19z7u5TYAFJl1JwGmADxYLhfeA76Derv51w90jJZ6pgWp-QKOFmdIfyE9QH1hwJWY04D6JoRaWIM0zA~noKEMBY-YZ~V~XOKA3ZjxqWGgvydCeERdztbRtkSnkirb7UbVzh6TKRawRoIJW-4B24MxC2h7pdKGI7ejxbM~VzM1iH8ji7WIDj7wrbfCVuiilZ6L7NXgCVzblSQ3WZqeSP--Yuvx9ipC5W~k7O-pd~Zmecav2qN3ObRsrjj4Mmi9QXOXMxL6g__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/ready-or-not-remix"
   },
   {
    "id": 2399146161,
@@ -1095,9 +1071,7 @@
    "reposts": 1,
    "released": "2026-09-12",
    "artwork": "https://i1.sndcdn.com/artworks-arTqgzX2ficA5lhV-MWKHaQ-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/look-at-me-x-changes-remix",
-   "stream": "https://cf-media.sndcdn.com/hicBaFwMv31a.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vaGljQmFGd012MzFhLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjA5fX19XX0_&Signature=e-Ho0-iPC63pPUCGN6vkdzxH2nE0Dp77wSF3L3zRMiAWgNmB2RzPMmpgr7G-skd7hDFowfutKrK9XwzfxV2g2~X9BeZ907XjbxzIHcNz2TWFrVDZU45gsCQXAWwTuRoeIbRPjCRHCl-JrT6Wrus68DyFkSOsGp3hczTZHInrQ7RBBiLWJVKVpKOn3d1bCZIdnyxPoE7MSfd9dP~OPfaQFPIEnqmF6l1st3snN1nt3jOuWGTAoIj~cGTXnpXgP8MfHJ4buLI~5A21MqZOW~cfklZSOZDkDQf2ypUrsRBLVTnwEAXRTmR~eQDVQPazvZDbjQlJ2iiFaJUacPaiITVONg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/look-at-me-x-changes-remix"
   },
   {
    "id": 2397410919,
@@ -1111,9 +1085,7 @@
    "reposts": 0,
    "released": "2026-09-09",
    "artwork": "https://i1.sndcdn.com/artworks-7zrhjEgSlIDiQy18-BMTzZA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/enough-x-changes-remix",
-   "stream": "https://cf-media.sndcdn.com/GmHsGMphp4cC.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vR21Ic0dNcGhwNGNDLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjcwfX19XX0_&Signature=S26aYAYKWJzZtvdL0lCcc-q2aN1fKELoQd1DWb--ZrJAGM7MssuuDKAVRb6Gbu1I9jPpVsjdgsaMWxlTWmV9zD-Km47NNOYWB36P2Y8QkFpfaIhlxZOvfKvEpJ-N5l2I8fscsAK98uXvRg3dt0c5~3uvykf8TK0CEimQOyWcK8hvPWpUP94zSugHMtcoCbMlJGB19mbrB~SrySbLK7uL8X~Yti7cmP-~-~~uQoRY9703z5CzuNRzSqIF0Cz7WfyTH0BQelksUWZaHJvSNtnnMSKxdbuamRtMzL1gc8VlQbjabfT7F2D~ECdRGRZAOvQlCGGSiJ6rok0vCXZQtvzDOA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/enough-x-changes-remix"
   },
   {
    "id": 2397404877,
@@ -1127,9 +1099,7 @@
    "reposts": 1,
    "released": "2026-09-09",
    "artwork": "https://i1.sndcdn.com/artworks-4EtPKVCi2ssZajtU-ErHelA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/gametime-x-idfwu-remix",
-   "stream": "https://cf-media.sndcdn.com/JXkDnhGsCoWd.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vSlhrRG5oR3NDb1dkLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjA0fX19XX0_&Signature=ErFoUDLTxfgFIZzJJcwa2DITjB~bKSh-ofFOX4p-r-Ubpz3gXeVFLMs6u4MHmoB4ydBx9LzEELRiOTrY6QhOFZaij1bT2aGP9~dQRpVf3jErkdoOJrdW1M7SFea5LHkDiq1z5Xox6OeyI60~N26prV9AFEn~STSgqzeBOpZCc9-fgEVXNBx8ipMQfJw7JoJwBqvVPjkzALAL42uwJiVHD3erEhhGOB4Hb~qSBxYSU0FKf8O3XVVXogqvfeQUMjK5syMg92QEZ4n3BYs~5nwU5dEO3Wflk9HzhHtEXoFyZ9RjFZExFF5sz7bWnoTKm4LLBLos6HUZr7nVx50I01U1Xg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/gametime-x-idfwu-remix"
   },
   {
    "id": 2397379419,
@@ -1143,9 +1113,7 @@
    "reposts": 2,
    "released": "2026-09-09",
    "artwork": "https://i1.sndcdn.com/artworks-ZdyuKb7RfT0PCzJb-xK9zOg-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/mess-is-mine-x-im-good-remix",
-   "stream": "https://cf-media.sndcdn.com/Q8gLhuKLisBU.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vUThnTGh1S0xpc0JVLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjQwfX19XX0_&Signature=Sr4MCwmM7MrPx-r9nFcoTignkWAkkOTITbO8DgMd~AxBM-XhU~6GDl2hlTDyonZdUm9w4oI~s3fXbm0XEaXt3qBDHtP~MsL3JzF5nq18REecAwZa13YV7yMcFoCcVI9bMG0szbAFUolG6RnxzoKQD0c2ij3lH~OmHwxMYtFCPQvrhunr4RxBTAm6JH39fOw7RLqLRlJg1Y5GO8AKZn-Al69J1~PD17LB6ypH0dcTHDbEpTCSVwGJKwYWFgmMdlfu9KUd2hKODOxB2RxZJMVgzouK8GjGzz7RcJOaYOsdyoRrA-N0XytQowsOxSn~JVFqqDLAeJ6-qnjI8Q0inWsFbw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/mess-is-mine-x-im-good-remix"
   },
   {
    "id": 2395028394,
@@ -1159,9 +1127,7 @@
    "reposts": 1,
    "released": "2026-09-05",
    "artwork": "https://i1.sndcdn.com/artworks-Ai5yi3HDMeS86JAw-MGwQ6w-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/be-happy-remix",
-   "stream": "https://cf-media.sndcdn.com/zY6II8dEhGLE.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20velk2SUk4ZEVoR0xFLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MzUzfX19XX0_&Signature=UbtA~mx9k9kSbnXxsTl1DbIcBc9epLF6DGqQKTj8CiIRjp7iWNCO8MyTaSbHDbqBWn0ua0vVm-yrAIWKirc9vXk9N0Rtcq-UIIt4G~t-kvQXXo4qPEDZ~Ts6HXa8WM9-ZJLDPhkzpffaWeg2WHfX6~X0XxkxeFlxXMEzWKmQNGrKHZZ~BDb-UMSjLGhHrX5pMWmheCNMmSuz4v8KlV~3YE~RCyRY5WE3F~JWHrj22GNRYxC5pG7nmwz9e-W9AyIlvpzoLDqiwBD4VkiViVVLIrABi4l3dR5hHjXI~rqKIW6jD~nZKai0IpzYL8hdJb7jGG~xl0LtpyVYYQRxCNR~DQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/be-happy-remix"
   },
   {
    "id": 2394940203,
@@ -1175,9 +1141,7 @@
    "reposts": 2,
    "released": "2026-09-05",
    "artwork": "https://i1.sndcdn.com/artworks-taL0D8jdoar11xe9-exrBzg-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/tokyo-drift-x-there-it-go",
-   "stream": "https://cf-media.sndcdn.com/JDQpf3rPi4QB.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vSkRRcGYzclBpNFFCLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MzAxfX19XX0_&Signature=ZdxxrXb-AP7IncWDB89~nDSYlGxzJqzorNrC~A94dkF~HgcbZI87HZuLmgXnXFEbnwhHSshbbwNNSxA8g1MsPKDwjECNlw9R3CH611xEUV1pJPwNwV84oVr3B60gkMMm2hcBr1yE0BzkulJcaR-ECXIEW9qdhmahAvQuTtTXALLZREf~P4s2vz~zHWOQ6gGU-E11spmtx9QZRBI~VrKunztX0M0omFrGrM~w~jmm9CZCsSy8XJh1jDtQbC~f8SYGf3PMakduQ-1KLV6MtPLOAPa2XJGep~bgUnMQwL4wWk9E6MWq1rQCDSIfjNXEVWAZvFTrj~h~eEgMWnenWWnojQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/tokyo-drift-x-there-it-go"
   },
   {
    "id": 2394574380,
@@ -1191,9 +1155,7 @@
    "reposts": 1,
    "released": "2026-09-04",
    "artwork": "https://i1.sndcdn.com/artworks-VfCX4yN7Pq7dGyQF-UhYzcQ-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/taste-x-running-miles-remix",
-   "stream": "https://cf-media.sndcdn.com/80oAwdkFkoiy.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vODBvQXdka0Zrb2l5LjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MzIyfX19XX0_&Signature=N0WsrezrlZn8P8LbhrGNkNl08IFTV01kofVaxorfBg-iqYRHz~rO4ZbkEI6-cgCmFbkiQwK9oQLVcjejp1xjRMLh-WK21~yLmD0fnKSbKPNE7J3AODwpTa5unUc-bfXTPGLvtxGCcRU05ncCNCcEI13hGNyh2HW6tl8iS5qqazKELg5yEzvL7QSIQYOUZ7wEANjobuId0qINcG37Rk40r7SzNaW-0PiIfhl1tvHXZocAwTPl4lZVDtIYLkpIy1YJPbKka3iEYGxGPJVMdeWFZ7rqToKAdxBSfhlo4Vthed~NqtoVoq4HzuQ1G8Z0yFiQTjFoEsASjqYEkOcXpM~R2g__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/taste-x-running-miles-remix"
   },
   {
    "id": 2393166831,
@@ -1207,9 +1169,7 @@
    "reposts": 3,
    "released": "2026-09-02",
    "artwork": "https://i1.sndcdn.com/artworks-LMTIYyvpwS1CPypv-wtPWyg-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/holla-if-you-hear-me-x-osiris",
-   "stream": "https://cf-media.sndcdn.com/3G1vA85sk93W.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vM0cxdkE4NXNrOTNXLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjYwfX19XX0_&Signature=P7XGvgx8faeuWoioElrYxg~WlJoe3n3UZMybuhOuuS0IgOHtldqCQ2IkIdFtPAdURkYmYYjQ3bHws-pFxpUyqUXBlR9RlvFdqFNkSjcmlkjPkTaEsfPpAEttmG8CLqUCHx4sj6xpQ316JX5QGKZQPm~7OXiFx~Hs5uIqznGIjAMIjJ~4s-AunZvMZrGIJyZEwNONwqf93~TQW4jlFpNSd851DqnCubIbASgM7e6J2pUQfOKNkPgbPMUVtT9GkufsuYPRCD51~fogY5Uay3HNbIoFCe-bpO-ThXzH5GTU81xa80YFClJNH5zjZxJiU9~muz~M-nMiRuSUXFfzNehGUg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/holla-if-you-hear-me-x-osiris"
   },
   {
    "id": 2392937073,
@@ -1223,9 +1183,7 @@
    "reposts": 0,
    "released": "2026-09-02",
    "artwork": "https://i1.sndcdn.com/artworks-V7ay8TtZ5vbCLX2g-kfRN7g-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/rangabang",
-   "stream": "https://cf-media.sndcdn.com/CH9siOEz5UXS.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vQ0g5c2lPRXo1VVhTLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjI3fX19XX0_&Signature=ecphVmcAjbx7VsmucI3aGP0y2fi8ilv53kGrFDCGHVwVv4ZFQQyxg7xLcIZqhIpiAgywgKw79TI3aflc-aBlWJ8QChvOU2~CLVA4EM~J7Ctrg5Z3bULdZJj2862bmWxHy4t-iPS1~z8-NWmS4re1bEKDLP6VLUPDrazx-xuehTAAKi4vsIJZ-mnZpCt8SUy60r6jxGBz0sdzMvIKL8WgGgINDNDS0CDmSjpggyPN6xqENPw~BoL4UVgcDkwNHoS3cvpBA71NWbtrUeaETjUGgvjlZJBz~X2A3llWtC-Nx-T927DIGjlYAZIz9xMmavKoBgl5QlRxgukKlRzWmP-dkQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/rangabang"
   },
   {
    "id": 2392429254,
@@ -1239,9 +1197,7 @@
    "reposts": 1,
    "released": "2026-09-01",
    "artwork": "https://i1.sndcdn.com/artworks-1NSW6QmsiA4Nx9bh-SoN2AA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/counting-stars-x-in-the-end",
-   "stream": "https://cf-media.sndcdn.com/N7vkeb3eaOAT.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vTjd2a2ViM2VhT0FULjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjgwfX19XX0_&Signature=UbaAq9IZ4ZHvorFXV~bAznrI03ycNNzxJnnSZCxXXDweBXHwhDgbHyNChTI~I12QBTW0X4L0HU2OPMUOXhh5FwC-iXlSEIGI5auKBNgRuWmcc~DQ21bsKEEqsLi5JKTyKFKth2V1g4NOqdgBeIb6bOM9AtP8W80CHxG~zsWbhmer5rCEMXmgY6XwVnYetVE3E3cnpfC486nP2Phj4tOOStGM7uq5t297SPPCu~CpBYFDb0nQgrO7JS6B5FaWZv3pWPWa8fWOdQr0Ce~rhqh9QxZXjdORR5m0leg21hIuFV-z6aamSWAmJZvQWZAGBaCgAoR9D~QRjgg1LqCWww7ubg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/counting-stars-x-in-the-end"
   },
   {
    "id": 2391534495,
@@ -1255,9 +1211,7 @@
    "reposts": 2,
    "released": "2026-08-31",
    "artwork": "https://i1.sndcdn.com/artworks-iDGhQMyxBSbkElWp-ucTi7Q-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/touch-it-x-young-wild-free",
-   "stream": "https://cf-media.sndcdn.com/HEbQhsRvVajo.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vSEViUWhzUnZWYWpvLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjQ3fX19XX0_&Signature=Ta3grc8xL2eJF173VQ9oQ6wyW-YjiqsLYXmeFfbXEC~SqdB9wt~s3PANy4C46lBc7-Il~GyovvMuQc2mmSlyUARoVL2-PWbBLT6ICWlAVs9hNndqtCBeurtE~jzMibs0TC5b0zZmPjjSXQGx9Z37YsiEZ8pkBvtWS1bYQigOMRtNCY7FTnldeL7JDvx3DLO9CRuhw3I-TFB929eYLW-JhM1J5GoPcKY18iOvOpHfxaOoXLRSFfTvnghwXSc2J3MUaPUDZj5IKf715m~LSqd~t064UVAKnFHLzHjLLNJm30InY2tBGAgjRi5O1rCwBtf7ITMmOZaGolf1RMRyjRv1IA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/touch-it-x-young-wild-free"
   },
   {
    "id": 2391098859,
@@ -1271,9 +1225,7 @@
    "reposts": 0,
    "released": "2026-08-30",
    "artwork": "https://i1.sndcdn.com/artworks-7w3w5F54xL9GnuOh-gv9Ttw-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/punjabi-x-dream-on-remix",
-   "stream": "https://cf-media.sndcdn.com/yKaWD0wtE5L3.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20veUthV0Qwd3RFNUwzLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MzA4fX19XX0_&Signature=Q8hA27BbzRDcVruAbJttmsme33wAklBtjfJTBRoIdidbbbmZ8LRv7awhKGhetoqeXpxdhtXkZUNAuMpqEIaTBs1e6BDOQ4E8xWHibxskXiVkEWGvN3fgPAyQQ31tOiNuCNEfAcdBpt8ow2zXRotxsDja0ysi3Y92DfSqQAuVKqziYs~x2jpYkLrQyHqmrRDuCw8gypyyGD5ghfni2fhKOB96Ktmhr7ZKNvE-ky8jMR-HTi7Tu4KIg6vK~lwge~bQWUaZxIgZHeUZdF02baLwqfzuugtr8atTP2ZOs7ztLUcXSHxXQzlVNM1~aTcL9yTk3n8jhc3ejSlzSZMQr8hngA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/punjabi-x-dream-on-remix"
   },
   {
    "id": 2391092280,
@@ -1287,9 +1239,7 @@
    "reposts": 0,
    "released": "2026-08-30",
    "artwork": "https://i1.sndcdn.com/artworks-pgxvMX6nPth1FnHj-y5l4Pg-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/put-on-x-whats-poppin-remix",
-   "stream": "https://cf-media.sndcdn.com/CLv1onbjkjjp.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vQ0x2MW9uYmprampwLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MzM5fX19XX0_&Signature=YvViGn76oCzEiYO3rBIyWBc~aWfIbD64CXJ91~GCh7bOHfdk0ahv9PeZRCgKZC4d6v7szjtne5G6iWLKY22Wy29jc0JZjFzoBDXrQnNQiyHJ62KC4-hJzQ1PAdYzsopGgSEykyzVeFaRycmqmcZylB9p68Iv7YgXn4DY3vRGw-Ztug6yhBBqD24deju-r5saUS5-3wfBO47sEcgGXxf1~QWC9BrFzniXoz-iV9qOpurT9thxVq0bdxI-zXRPw8Wx-cG1O041wGiQ9cAFAFYDfNtts7peZb25IHdAwOx2IOjCMH5ImvnBYKy6Q5PUeWGblHfm-rNNHiAhdZa3xt58EQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/put-on-x-whats-poppin-remix"
   },
   {
    "id": 2390838972,
@@ -1303,9 +1253,7 @@
    "reposts": 2,
    "released": "2026-08-29",
    "artwork": "https://i1.sndcdn.com/artworks-oDmNEuZbeJaEtd2j-f1D7qA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/shots-x-are-you-with-me-remix",
-   "stream": "https://cf-media.sndcdn.com/LAsUxdOBgUPC.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vTEFzVXhkT0JnVVBDLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjU1fX19XX0_&Signature=Uj9yf1jH7hkoC903ornsrAOQrqJGLdJSUHxYDAYiZFl3wqofVqwd5-dyXh09pFoLsOPIlucxC-gfww3oGEs0lXM~~vGVEkgZkdxHrxV3p9qllQ9YC42I6LdSvl4OIU-BFbOYbzwjIPf1EDXxaxp1Ee7gkjx~GzSmfsulcBb5mlHPRADjNwh~~9cKJlCMsg9-O7lRXYTjogTr93y0yqq8uX0~KNynK2a3rK8phGeVdYNsUUVg~oMLunItCBCPjs13XlAhnyYnNijaAL8jgExh3MZ3nOPLgI2T2MN9Uh2Sqn~8KLlhQWGzfMV0psF-R2PvhQQ7SSfhZbJJkTrhmAr5Lw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/shots-x-are-you-with-me-remix"
   },
   {
    "id": 2390195127,
@@ -1319,9 +1267,7 @@
    "reposts": 3,
    "released": "2026-08-28",
    "artwork": "https://i1.sndcdn.com/artworks-yysUbKyG9HTUomho-fBZCIA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/gangstas-paradise-x-lose-it-x",
-   "stream": "https://cf-media.sndcdn.com/997Ss9DR46VT.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vOTk3U3M5RFI0NlZULjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjY1fX19XX0_&Signature=TLJKcuGMtP7LFLsM~Kgkm55~4RPOKWVI7hIeDArpBBhXA2PYyu83mTOQcTSmXtUhftmhHcoCSu6x99lasFqIlrsTvMn~JSQtpSAUPfAuiLNi65UGDy2nO2BE5wlaFH~pOExIRBlfyXEolqQ9eNJkjMWqNJsD0gEBfanTGYtTA3av8~m9eNwaJUa5alYq3YClu6NiYHS5aNM0XIomK-dXECk90iyZQDlHMPpZVDMIPiFbdVz6JSSCJ9523Fe14ZuUx7x2gS0zlsoLwP4Qfsyrh7SZSDsTAtni3DZOLL-CRxW3n1LZj5VDHLr0kObe19C5fcw~efa1f~h~ExuWkO3vpg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/gangstas-paradise-x-lose-it-x"
   },
   {
    "id": 2388640296,
@@ -1330,14 +1276,12 @@
    "duration": 154,
    "genre": "Techno",
    "tint": "#00E5FF",
-   "plays": 4625,
+   "plays": 4631,
    "likes": 228,
    "reposts": 2,
    "released": "2026-08-26",
    "artwork": "https://i1.sndcdn.com/artworks-9p2wTY4yZpCFyHT5-7G6G9A-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/storm-ii-gener8ion-x-yung-lean",
-   "stream": "https://cf-media.sndcdn.com/4EbngJWLuI7U.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vNEVibmdKV0x1STdVLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjMxfX19XX0_&Signature=bJ3hURQ16gsKeQpxWYHZ5yc4TEk0db5b1xvW-VUgea1DlxV8LrlmyUQG~atFAW2VJ9ujpY5A~colW0lY5xLguJNRc2F6YpM5UqO8csPNqZAzGxqgVcTAhN~GvB7t4jn5pJBU0~jOR5e707B0DQGfvxd0ofa-haokGE0S5o2u5sgfYTXMA8g~WT2P1U1qq0~SuVTleiRNm~0xe~segH0iSdOXD6fyxm5tPLUuIh~sNU56w4asXqPSu-bpkIQVJj1HvfSpqIRFr9czOCzHhwqUVDrJfR369y6PFNJGn~UcJomB86aXaBw95ZLMaEofpAmr0UK9ogMTK65H9-bxeJuLDA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/storm-ii-gener8ion-x-yung-lean"
   },
   {
    "id": 2388625320,
@@ -1346,14 +1290,12 @@
    "duration": 203,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 2130,
+   "plays": 2131,
    "likes": 18,
    "reposts": 1,
    "released": "2026-08-26",
    "artwork": "https://i1.sndcdn.com/artworks-HlxCqMeX6Bxih1tK-Kqw0YQ-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/shook-ones-x-ice-cold",
-   "stream": "https://cf-media.sndcdn.com/WfQXjoo2AZVP.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vV2ZRWGpvbzJBWlZQLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjgwfX19XX0_&Signature=DjMkGzgNQZ3aUPjaEigWLZDd39zCA94GqJA3emyC108ABpvnoVlEBoJbXoOyWP8UankDiwtlmPXVoDxM~pVenpj0G6L8o7BvPV3B22DxNMj7oAHN2ldI5QL7rgi1bsAmJZsmHCqtzUI8riI6rdqU8B3WrXIcrpX9KF8aCskdIlEq-OA2kZR8ITc9iUIgOANnl30aMz9-1wuZmhgDdBE-7VocifALAW84Tgr~d8LyMOklorTP0XqJJ8iDxOR2PgUvIEMEjRrJUV6kGd3ZURvhETFCyz3KJw2p9Q1olusl3nWcnWGTBk9MyXRRPH9QDsVvwkOVkPAJhS5oIgdXVDRoJQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/shook-ones-x-ice-cold"
   },
   {
    "id": 2388608916,
@@ -1367,9 +1309,7 @@
    "reposts": 0,
    "released": "2026-08-26",
    "artwork": "https://i1.sndcdn.com/artworks-qhHp914BiBpI1EBy-3taOBg-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/luvstruck-x-1998-gouryella",
-   "stream": "https://cf-media.sndcdn.com/TTxKrLrpwzPK.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vVFR4S3JMcnB3elBLLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MzMxfX19XX0_&Signature=OanMTQD1sUNN35bAbQFvx-hSl8yKCzXxaDLoesxQDb0uTdd4Tydoks~thhU1ESy3UwL8ogTBh4FQqtmWWXBF7R6Td2PYwNcEixEErcv9t--fXY-ZaVTg5~DV02ijUn30peo-koQHY3Ith0m8bV4bOz8rA83jQsx3LZenLd7EihwZBt-1566wWs7eNCcvX7e1KV5TiVOhR-jNaFCzX829hV7r5YWUH5m0L4zWhXFE2l6u~pualMjhL1HfUkF6LjCqCrsSjl2P2txXe14Oji2zyQrgpVSciR3SRZ7CHBoYmCYMpvTjkteQ3C94Cn~gXaJOcmW0DQ4ENZUWZjSp4ASugA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/luvstruck-x-1998-gouryella"
   },
   {
    "id": 2387528109,
@@ -1383,9 +1323,7 @@
    "reposts": 1,
    "released": "2026-08-24",
    "artwork": "https://i1.sndcdn.com/artworks-z3frEoDyNhp0J1He-oytvrg-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/lose-it-remix",
-   "stream": "https://cf-media.sndcdn.com/r7BFv3C7Lzz4.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vcjdCRnYzQzdMeno0LjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjA5fX19XX0_&Signature=QobShmXOJaObTSc3zXKJ8bKj5G~J4auCEwXnTapC~6pCKfbZSuT1NlOgG2DNpWA0lSpPsC3cGAg953SqF59gpYhlE1lrY~kzRQYxgbfVwK-Cu76g9aqoqqbTGLJC3qnZD3QL1S1OetTT-D9v0taMrqUMFPQuzHH~Dox2aCSqd7hT0iatKkP9--IUljZjtsNFdjwo1ECqil4NIMrx815PU~9-MPIvh~OkjXhCHd2yKy5W1NCMVIgt1aQ4z3~usGlWjy8DlNDfKfI~oxPKknhnOcEFEuGpULBLXxWm5~sbiLNgIRtGmxI79~EmROTEm8G0m8qdbjtvVyk3E64qukPtng__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/lose-it-remix"
   },
   {
    "id": 2386876959,
@@ -1399,9 +1337,7 @@
    "reposts": 1,
    "released": "2026-08-23",
    "artwork": "https://i1.sndcdn.com/artworks-qfNYYhmEFrBkpzew-WBzKbg-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/im-sorry",
-   "stream": "https://cf-media.sndcdn.com/uE21FaU7QRQT.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vdUUyMUZhVTdRUlFULjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjkzfX19XX0_&Signature=AG5d-M48VV3IqKDmQPSAKZkOn6jLLTq3KmN8RdLFGUrkC7JAl7KlcAxrnMLqrkmE39yo1DRyWNyGd1W51ephZkFq8lhbx8kl-qhs~qhfczKzubdas9ryH6pjD8gwBrulq6499WfIG-36g0rO2Okjq72xoOf~Agw9DAXgJk0-f3j4mb~qeq4OIjabmfGC9Oy7J9dr4Af-pQuwzOo6wp5Pqm6y-XRUbdfB2UjYT37pBz2I5xHMv9ZPVi6L-j4vMWNgg7CuDGkif5JmnEldm7fncQxgNF2jJ5AhVTDfml-pEueewcf13O5YHGw0HNXCJFEaJeJ7CAMiZw9fWiNhuyOnyQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/im-sorry"
   },
   {
    "id": 2385765681,
@@ -1415,9 +1351,7 @@
    "reposts": 0,
    "released": "2026-08-21",
    "artwork": "https://i1.sndcdn.com/artworks-7HSzDnIdsta9JKEF-aK37Nw-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/cheerleader",
-   "stream": "https://cf-media.sndcdn.com/jvOY4zWqZwAq.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vanZPWTR6V3Fad0FxLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjE4fX19XX0_&Signature=JfXXGEwWLyX7dDMsjC~yRx4he5BpeY-dMRYuY~SFf9GHQLIU5yVC4tV~rhaKLLMd6LodyKFBs0t2xE8ZpC7Gm7WdsqXtE2rdAw-jzuNkl2EgcmsMM6p9IIDWrEXsCxt0eg1pFl3Mr0Xj-ebBsYzNtCm4pdzWUfaSAEo05VQAJsKUj2mpD1t0Ie3hlUk8Km-KpGbwE9eHF8FFy9qFeEZdYK9L32o6ZgXHWLO96UkD-f9eT-ko6VdZDrYPFXDqf9dI7qIRWkrhdsJB7JqwR8X~b1CYtB958tbhiXjgb7h-GVQaYGfHla0r5oqwhCZj8nvy1pPrUsFR~dLT6yIc1Vubew__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/cheerleader"
   },
   {
    "id": 2385736401,
@@ -1431,9 +1365,7 @@
    "reposts": 2,
    "released": "2026-08-21",
    "artwork": "https://i1.sndcdn.com/artworks-6J0msMzBPveVGyJr-BlgQdA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/shotgun",
-   "stream": "https://cf-media.sndcdn.com/tmDw9AdLnm67.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vdG1EdzlBZExubTY3LjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjQ1fX19XX0_&Signature=Bb-6~OLJ-1ihH~6amRy8Ah~leflvk2QNuzEVJI6WDZKY6uJq08Acg-nC~OVg-nEOcBcDJF6ppTylOTK1qzVAY21L1CXjWISKkqvowPFPDZsdS~0GWvmdq93z~C~kx6LGIaglbpgHbz1iX59yfP0nfx5vBanfj-epv7tnxMz70nMk49MsFA6dWmGXO8cUtDzM6YPGWhb7VRKsbp7N8LDr08K33kv4QZAEkycnE19BghM87WXCVslhrBIDedRloJCc6iOF3Hn7GoHNxo4g1TA~4vRkEdhvD4EWSp~syiAYIqf0WH77oRNmZLnJvAQ6vXvn8KT34cD5O7JlU8UgIEaXNQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/shotgun"
   },
   {
    "id": 2384824074,
@@ -1447,9 +1379,7 @@
    "reposts": 0,
    "released": "2026-08-20",
    "artwork": "https://i1.sndcdn.com/artworks-bQONY571az4pCRai-mTnU3g-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/bla-bla",
-   "stream": "https://cf-media.sndcdn.com/qgtmCjjCT5jx.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vcWd0bUNqakNUNWp4LjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjYxfX19XX0_&Signature=O2ZOLIN7J3RE5QHlyeUSRoUmh0DgDXuRPp-R~3kJ0nflJMxKgvuGGVjefjn2DLMem8S~z6~7mrqEBge~Y~QbNy~rUgygOkg2WFBrnP852Luhxpf2ltWZaDvqn-u48dJ-snBFwCWCjcVRDawaPTUCrzIU-gvBCRM~j8ZjkhnBTiHhVN0VQdOanaJrfn~gG21DIfjkozWbsT1ZLyzlTNT7b3S1hY59C4fBrxb4kLr4c0EBX8PLfX1WdjwWI~YaXawadBuiCIwTtrLbHb26XGIkcchpIORt0GKcpCTmn-2tqgpr~S~ug15zrv4Mt0W3u5VbJUZC~944sDx~bH~dbjPCrQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/bla-bla"
   },
   {
    "id": 2384818386,
@@ -1463,9 +1393,7 @@
    "reposts": 0,
    "released": "2026-08-20",
    "artwork": "https://i1.sndcdn.com/artworks-3q3aReal5Nzr2ZHL-V0jo6g-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/thoughts",
-   "stream": "https://cf-media.sndcdn.com/dUQOojHBI7w0.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vZFVRT29qSEJJN3cwLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjQwfX19XX0_&Signature=VJuYgb10W8mm84ZvNuJpqQe4MRmuF5GTEwNeHq~1hDuZbFNIqvVnro3fCPc6LO8B~~p2sz4EkzbYj8K8--XUdsy4eQA4Zf~uBDnmNHytakXaS2D3AJmDOYshCZL0LfHskv4iImgghiDDP8qvUSoQmzyqWVsKMi9hDLsxI1OFcZh1JSTmliNwgD-xVp6HYB7jL6Tc537PdOJapwb9Zgcjt1GroON83ncoWWMbAi5Qlnp~BePrVbC1CqJ8FAiZUsLnCM0k6YudKeJCCI6kL0fH87385WOIGy2kfB0IO9XXWPHlDfIyZ8ZEOGjFBrizGD71JVM2bUbPip-~fobManjNHw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/thoughts"
   },
   {
    "id": 2384272413,
@@ -1479,9 +1407,7 @@
    "reposts": 2,
    "released": "2026-08-19",
    "artwork": "https://i1.sndcdn.com/artworks-5732LQUjMkbvhzmd-YCv4EA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/believer",
-   "stream": "https://cf-media.sndcdn.com/VsuOi4VMapfc.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vVnN1T2k0Vk1hcGZjLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjUxfX19XX0_&Signature=PEec1TOnJm8ds~Ah4CEaCIJTvp3Sq4FkUDAqDKjrK31hqD2pldKuezdPL8GlkAPxFAp0AIGgoIvXbaJlNkQd44VtyL0AYy68tSDquo1kr6tCjnxYgp6K41hcgCJNOwW8k6eQfwLAIZpf67QaavMLCaTKt2vvebbdI2ns8voGakSyfls69t6vLJczaCxl1rUHwfcyR15q-QS3msHe~aMaLHWTSVzhLz0d7qudAQ~AjjSNDh3oDYLf6ymaTm7ve97HQU4TChVVVacDBai832ChS30pc6HvxFQz8fCx2vhQ0Nnvf0yeuTnJCVJDRqlqbqs~0gIp7ucpXv5X3pGr9E3XMA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/believer"
   },
   {
    "id": 2383947708,
@@ -1495,9 +1421,7 @@
    "reposts": 2,
    "released": "2026-08-18",
    "artwork": "https://i1.sndcdn.com/artworks-74L9yEYG1FBHNZwY-iPj0sQ-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/afterglow-static",
-   "stream": "https://cf-media.sndcdn.com/uhzRCNc4AELI.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vdWh6UkNOYzRBRUxJLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjM2fX19XX0_&Signature=NKSHmq0ZrKSIhjxz5lm~PyWZTKhv0VgOTcm0QmxokfjlnHI64TwZR5mGtMOFfzEJHnvKpSmiPPYeeDUuTo-XocDRMebsOkpTIYnfv3wp9n8CIAB96Lz68fJM3zgyi5fLVEBvr-hL7pUdQ0LexObVEysC76fqmKLaZFE8XrnFORNDhj9EuOu3ns1aP~omnqSo0BgMgvk9ym~cILqie44BsXrINAqSYB3NatXLlT-lrR1fpcxlctO-UZ90nagUP591ND~Y4hrSM~OTfcT-5F2f2oEXsHy-QCpORQ6JLCToz0xmc5EB67oLCtrDoFTyOqBmva7suCZskGMl9j7TEa~ujQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/afterglow-static"
   },
   {
    "id": 2383937628,
@@ -1511,9 +1435,7 @@
    "reposts": 1,
    "released": "2026-08-18",
    "artwork": "https://i1.sndcdn.com/artworks-iTbtfb2Z8hqUy48o-2ZLAZw-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/neon-chemistry",
-   "stream": "https://cf-media.sndcdn.com/6wTDHdPvBM40.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vNndUREhkUHZCTTQwLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjYxfX19XX0_&Signature=Oiz2~Ex49O5l6ylJjgmUcNZ0kNLWQT7XMq~2Ua1lVO45Z2VDysSo7ywEaLoQeFr-w0Tobiywt04K8a-17cQ3MD0gG5AzPUDTaBlw5Bulo6T-VAYz5mNCO9P7zSTLR9w-~gOUZg~3QJgElXxs3swYOqio8woOsd0eEyT59rWwbg5ul~4MLwsDAQknFJAXi3KoxMsJme1lZ5ZWvKRHXQ6nH2LslTp7CJTsQai0sgZ9McVQ93tPukNoO-VqmSx3bEnPWh0bak40QAhFowR2bTPGwbTZC0Oc9ET4YtsIbQOYLEHP7c2oieH~jkTArwcjO90FsCL87vfKCLmVJU8ogt~9bA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/neon-chemistry"
   },
   {
    "id": 2382168378,
@@ -1527,9 +1449,7 @@
    "reposts": 1,
    "released": "2026-08-15",
    "artwork": "https://i1.sndcdn.com/artworks-4a9IIqRjnlgFnyku-s3iQRQ-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/re-wired",
-   "stream": "https://cf-media.sndcdn.com/H52ReUw9gMcM.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vSDUyUmVVdzlnTWNNLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjczfX19XX0_&Signature=M3srUJDsoz5GFNj6r1CaS66Hr5lshTVCgyQfpUqlT41o0Sv1QDz4HBlpGuEDJrgJJzvBaZKL~TTe5zcSxSgwrDBbalO8K6m-nCFN0IIVLTj1aVgn0~2SwcQX2X9XkAzt0faDFxvm0oFeOBtZLeVbarRIsLEjcMyNbvuCTqiwNZ~eSHYVWsxOVTOyvh2-BUGQbuKyvEcJnbOGn5ZcIA68iioFs4~3oPolYsdanOlkd5gdVtWwMnvmis1SiMI0HeQLnK54~QmG8MQObDaIcPLn14jYbAY8Q~aZnyGXCqtvS~agxrSZtuJU8Mul0h8C2JKwZR8KVr0TbP2WGANVqNvmbQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/re-wired"
   },
   {
    "id": 2380805277,
@@ -1543,9 +1463,7 @@
    "reposts": 1,
    "released": "2026-08-13",
    "artwork": "https://i1.sndcdn.com/artworks-mrL9kWKKAX2f7pE7-5hhGpw-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/bangarang",
-   "stream": "https://cf-media.sndcdn.com/WPakp9y4s6jl.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vV1Bha3A5eTRzNmpsLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MTc5fX19XX0_&Signature=ZRMu1FXIIeNsZsdFqCBHkNiw0ov0-l27dUSsh0Vsl1LOq4qGr6A0MK1IAL~uhsVNTCWgMBbLyxXTlnWIBAxMC6E79vSfwWZ3UaPn~L4cz9mwkG7LMFyCprW86bit3PrHbOPPRDcRxzJokj-5xJin2q1cw24~r0vQtJFg8pBmgxIDPGBBAim~ROcXyW8S9BKbeS7i6za630a0LMUf7B5B4RfapSCMipZHYx0mME2lH~3iKJozyQ~9mddwc1qp7eLADs4Bz3y2n966NgmPzwdS-1YGU94oqaMFeXnGh-dgRj3IoIDAu5enx9p~t-J8rYCZpXrGwc-zN2jN8rQeSubcSQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/bangarang"
   },
   {
    "id": 2380259883,
@@ -1559,9 +1477,7 @@
    "reposts": 1,
    "released": "2026-08-12",
    "artwork": "https://i1.sndcdn.com/artworks-vNucKyr3Gjitxjej-J2b2Wg-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/my-soul",
-   "stream": "https://cf-media.sndcdn.com/gklj190upUI5.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vZ2tsajE5MHVwVUk1LjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjU2fX19XX0_&Signature=QdFK4eUzrGk~-SSoAjrrJTPZ1Dnc-C2RAvIsvcGEHjkepFrVk5rykDt46TdENR0rFms18Tcjb3jMFnaqFO5HlnSF1GranCzfl2tRHdEM8WJlzBPPcSm1I8ltvgh9N9mjGzKoF9nKpTI8OWW5-oIOdBs3PaoX~Li1jr61AV6qht0A9rybyg0h2oSiqEkFX~crBf7OwWseUDgQuwggmO46me-w1LvYojnhqB0LiXo02CHjHaFPa~ZfHeR9DAjS6joa34fFSI5Ugkl3-MeeTlIKO2-jSqjGAs1H~HbM9WTOVme~lrppwrWgMhheaGo8wvEABHmoMjzPaxPtaWr7f6~~TQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/my-soul"
   },
   {
    "id": 2379179933,
@@ -1575,9 +1491,7 @@
    "reposts": 1,
    "released": "2026-08-10",
    "artwork": "https://i1.sndcdn.com/artworks-zttavt6Pe5nDDtRh-z3VKjA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/d",
-   "stream": "https://cf-media.sndcdn.com/RefILOgXzNXH.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vUmVmSUxPZ1h6TlhILjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2Mjc0fX19XX0_&Signature=AmJV0WUx-bQNfybVVzrQTl8GZL22GUYOVkuqpO212ehxHL717KUKZQiNp5rQf1aZC3GDcd1owttme3mo24PeHgRSkmG1OnbMMmfe8stH80Y6JdYJ9Ojf-EvsyWYwvLxDGwpCBnisGpipSKoJv3d4t5AYQUhnVW-aF~wF4tudmqlmmAB1zGfoP~CE40jCjqV0n45Z8L6JdYdG6HJ0-P4BXLjjsjMVxtFF8sy1aejuBztLoQe7tgZQ4XLMMWhtXnxys6sD13YVLS9pqxlu9JS8FrypUbCEOzmOUt-Qk-dK8qHzhT7hl9D70koUW6Wz5~NbvVmAM5wsNWp0HX7me4doMg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/d"
   },
   {
    "id": 2378043248,
@@ -1591,9 +1505,7 @@
    "reposts": 1,
    "released": "2026-08-08",
    "artwork": "https://i1.sndcdn.com/artworks-32ALzoB5BzdZfXhF-0MPGBQ-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/nexus",
-   "stream": "https://cf-media.sndcdn.com/HNplalB5WGvZ.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vSE5wbGFsQjVXR3ZaLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjM4fX19XX0_&Signature=Ceh9TVr7NmsUd3WgQ4ZDb9MrbDrSZ73-YOq0tsA0PajX6zmrnCP5aYesL~ngOBFmFEj-7AMrl-OzTnj5fWhkGOQkicjOAn2X05hBrfIrtMj86nnn3JQ1E313IDsp1TGnoA5nZkT82mKrk1q2TA798iL08epGXMJyW5ci9gY8pO28UbetqXpiHvlsXyXBDPvXhOuJaRcpJsvjzFiH3Xx1BIQPa4ki6q~WyfuZ-NJbJjW0x3NV1OMkCj~DiVim~ct1UESmXCcrQKhLNvqJPYbrRknh0QNNFzK3a3c52RLMcIAYOXHe~-6C3nHfhCiWnTw9wTZatpmyqqDSUlKWzN1epw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/nexus"
   },
   {
    "id": 2378005010,
@@ -1607,9 +1519,7 @@
    "reposts": 1,
    "released": "2026-08-08",
    "artwork": "https://i1.sndcdn.com/artworks-dwNf7s7CXRFiqVOp-V0coCw-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/blue-impact",
-   "stream": "https://cf-media.sndcdn.com/GeqrQoXTKJwz.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vR2VxclFvWFRLSnd6LjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjU4fX19XX0_&Signature=N2XkNYpdNYK4DK~~xpeVEaxeWIqPqiXIe0keQN-EbFVhAxu5aFw5WWfu-caiWcjNbMHvaSFdPj7ij5v77FD86DEpsj~1hhWyZeua62E2xASgM3GSbsDGWP374cqaXzXMFgSq~hKRVgTtVMfW8L8xmd0Jtu6hu6o~mJ23CJDWkearR-~IUgt5S5aTFkBzG1jnlcu4lIqp313K0Px68bwomVBMt4N~cgSdSINZ1wYTLXee6doeI3~lPgLQ9mbtiPWtp4ukNE~L2mGFddGsgQzVI98rgTDmqGKXhPP71KGQ0QTz4eIYVdnf7GzOCbP3NZBfUFtM4tPBpDgq1IaLDZNi4Q__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/blue-impact"
   },
   {
    "id": 2376451175,
@@ -1623,9 +1533,7 @@
    "reposts": 0,
    "released": "2026-08-06",
    "artwork": "https://i1.sndcdn.com/artworks-dDCeLFGaGwiFDNjP-YJzj8Q-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/luminous-resurrection",
-   "stream": "https://cf-media.sndcdn.com/1AauM96PozEh.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vMUFhdU05NlBvekVoLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjcxfX19XX0_&Signature=H3x5-ab3ge95-lUhBGgV0hZs4cl1HHOd96n7Ru1TzvagBPpwBhGRGFdRpz02YR9-j6NZykmiYb604OZGXhxsPuNgNFkdPYjn7qAeIgVSUcXZxd4gPn337V1tFFnzmmfrkrAZc5JU8bhzOmUrWiOjtCMS~gxlzALVdyuj62BohXQ8pvBV2IlW9pnTKqFIR5BDFkMf-L~m-QXHr9lAsPh-Xuev7zZA8GaB7LXNJgLjXbDo1W~lcgU76vnAU6p8Zm3KqFhf4jD3jYo5Yg7WtYMu-HQp5S28fpPIn1HWLA5PtPDnMOx6k0WlaxDgHOXo6V~o7LYk7m5vjvJGW80W28CnoQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/luminous-resurrection"
   },
   {
    "id": 2374970918,
@@ -1639,9 +1547,7 @@
    "reposts": 1,
    "released": "2026-08-04",
    "artwork": "https://i1.sndcdn.com/artworks-1YWSGiTOlyBPIo7d-GWxM7Q-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/turn-on-the-ppk",
-   "stream": "https://cf-media.sndcdn.com/iTXxgiflPqix.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vaVRYeGdpZmxQcWl4LjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2Mjg4fX19XX0_&Signature=czNwUraU9bA4-bo5JC1G7~YTgaE-R77R~NOj4SL4VLoSATIAU3FDkEIaot1btMe9h5yQqsMKgGYdQAoaOBRL7-ptVSGmKhT0lW-NAfflfC1w4~quJR4AVMziAmBPAgnP8Zg3uQ4XVOAGvET4XVt49jqlM1nFQWZEPUWtOYkQTBpiGY8PlG9UYgjuq6ypTKuPJdqm0fDZylUob0Ek4tmpevUSxjBfS2deBi7UA7TQroV4c-OiLyGJf89f6vZBPdwPNKgh~sCe~BgKDjWSZqYebpaGX0XpahMHivlgDLUWE-XUKpNK5G8Q77UZqVJtUG2xnhRvaf9Y5-ZWM1EyQPNsng__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/turn-on-the-ppk"
   },
   {
    "id": 2348817464,
@@ -1655,9 +1561,7 @@
    "reposts": 0,
    "released": "2026-06-27",
    "artwork": "https://i1.sndcdn.com/artworks-4CHy2aHEAx9Pn1rE-xVkWyA-t500x500.png",
-   "permalink": "https://soundcloud.com/phantomtape/static-memories",
-   "stream": "https://cf-media.sndcdn.com/BWpLw7V7Ub46.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vQldwTHc3VjdVYjQ2LjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjUwfX19XX0_&Signature=ZCfgJ5IBFGzZJf~ROkiAEWoXkSUGDC9x9YAGJaa051g8hWpYASx9eMHdc5iZMse~q6tz7Xp1ziUYa39deFY-HNFjMWPn2exSu1-q2dzc7FyTeZZ1DzYWU8KydI9WKcJGa5-btFtQ6VIOnMUbyiUoLB8cMJPA-JDipwCZ2lmEP02nPETKVsK6whBbKYR6BrMTeHdpiRq78jhRYYB4uDR0K8jyy-c46otxrJDROSNCgI-pcKlZQXgVL4kFIiEmYwxdIf7LvApidhgBzFZ--jZ4pnePEr3s9jb3dIpYvEuRlBFodBYZH8Pe8YfV-AXy9l3YKtjAe5T7sAiTaEgn3awIQA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/static-memories"
   },
   {
    "id": 2340587825,
@@ -1671,9 +1575,7 @@
    "reposts": 0,
    "released": "2026-06-16",
    "artwork": "https://i1.sndcdn.com/artworks-7zk5IAg4PHefoy18-4F55Ww-t500x500.png",
-   "permalink": "https://soundcloud.com/phantomtape/fractures-in-reality",
-   "stream": "https://cf-media.sndcdn.com/esvLhMBz7kDV.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vZXN2TGhNQno3a0RWLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjcwfX19XX0_&Signature=fywvOf1rJFNiOVPyIQ4cwMAFpg9K4czSHyARZdljeUGbwO~wzeO~PdxezSNKKlEhwGZLjJ~ssPJR28ifRMKxznlXyeasFEL021Sjl889u1Xo6PqOMA2YlE3kJp8yYf9B7Lox8QRxwrqpsm8cAAIiQSJlFJv4BvnXM2Pw6eU-W~n8wDaGxNkkB5KHz451xLujXrM9Zx7R7ScaQHfIFHpEFVQ6klZXhPzxaXvPk47WQBc-6HlximhkZXTdmURTGsQKPIkPOz5BwZyguwgbSm6cqmlm0xoyfwt3BGk0ikOhRbdyVG3PqSIcujeiglavVfFlk~Ivj12eZbE9fyb-1hLLJQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/fractures-in-reality"
   },
   {
    "id": 2340347639,
@@ -1687,9 +1589,7 @@
    "reposts": 0,
    "released": "2026-06-16",
    "artwork": "https://i1.sndcdn.com/artworks-B9qllNchzE3Fb7SD-Lt6dpQ-t500x500.png",
-   "permalink": "https://soundcloud.com/phantomtape/echoes-beyond-seasons",
-   "stream": "https://cf-media.sndcdn.com/lw2LiqX052zR.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vbHcyTGlxWDA1MnpSLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjUwfX19XX0_&Signature=YUDQBxwf21MeH2ttqonvg4ypP-XUWGRs2QplqRn6tcqKW~gCJOf4ZYtBpSamJI~l4ng7L2OEF0pcT5v31UFIwRyZ8RGPWHa~Nnx2bmFqz7SV3795Z7s-l4ZZqf0NO-u6vM3bLEJvQfEj8PLQaUrpDcQp04d25wH-yaTtufathht1thL49jWD27Gz~K6TLwnWqd9bh284bSn4LsKa6mFkI3Wxr52~7yLD98EcCLMwQ-gTJM0WlLRVYdQPZEKradhrAny~K5KZrlH0neT~5WsK6jv-KhS3MobpIB~Oaj70BL1OdzWVf0wTAYtGrv4Ikp5vLYvV0-5AB-78ST0Uqmc2KQ__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/echoes-beyond-seasons"
   },
   {
    "id": 2339169764,
@@ -1703,9 +1603,7 @@
    "reposts": 1,
    "released": "2026-06-14",
    "artwork": "https://i1.sndcdn.com/artworks-Wk4q51rxlk71knzP-sGn2qA-t500x500.png",
-   "permalink": "https://soundcloud.com/phantomtape/broken-reality",
-   "stream": "https://cf-media.sndcdn.com/tovclZLGLJTO.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vdG92Y2xaTEdMSlRPLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MzUxfX19XX0_&Signature=Q6JgyG4PIHyouOWV7WjdIl6kwIkVJl5MeD5ogoKyLCQowIs-esq0Ne2uWG~TKDzPqcZChB06emn21VB3~ll25je0C9bWWykVMlw2IcsjR7LhsXVkAziH9CMrFW8AB7mdOgTOmtNPQnhGuzKMAAA69h6ijZBunjhY4UnhtD-ABXX8CI1oyj5XYpxp3X-RmThFjjYexFPCrjEwPk6jH~2CLIbFLzYPqbwieunXAf3Xk5VgnweWe0fgW7sBuBW10G-FImS-PO7saf4LvYJ6CmutLBYjxmszCFvyZk23a41gBeIQk4QFFUz6l484FRPKP6aEjhZal2xFLNHdbVQAM6n4Kg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/broken-reality"
   },
   {
    "id": 2334094787,
@@ -1719,9 +1617,7 @@
    "reposts": 0,
    "released": "2026-06-05",
    "artwork": "https://i1.sndcdn.com/artworks-TrrR63ug8v2Gx9TI-fnLqcA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/18-cyberphobia",
-   "stream": "https://cf-media.sndcdn.com/yMcFWLolMH3S.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20veU1jRldMb2xNSDNTLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2Mjg0fX19XX0_&Signature=bRC7bFnHEFxxVBzxjrILp-WDqmCd7znJP4tP26Ydef29kf9acpeiHpgMhqOBFXqbMfAYu0H~INvdTFCQmJ-KYtW4fff3a55JORz5~xfGJuujVA6AEk3hEj6M0FWTepIC~bBxBIj-3IlgdLpCXDbIWqPe~7nLyVDFGuVQR0D2gEk6sdeKJV4fc3l4Wi4b52AOY8ER0YLfqIxjh7wcespZAwRCotaWg-1oxsk8X4V1Kj98ZLGcxyP7WqOdA9z4PniIPn7kReWU2ZnynXiVUPVUzB8f-GHlM5WMyTdWCVqRkr6jEGHrpVQjzAi7Azcp7zGp4kZsAAChA9K~VhGwAXAR-A__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/18-cyberphobia"
   },
   {
    "id": 2334057710,
@@ -1735,9 +1631,7 @@
    "reposts": 6,
    "released": "2026-06-05",
    "artwork": "https://i1.sndcdn.com/artworks-ddajExSJM9Mdv6zl-JmjruQ-t500x500.png",
-   "permalink": "https://soundcloud.com/phantomtape/17-broken-reality",
-   "stream": "https://cf-media.sndcdn.com/4LeOmGjm8BHv.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vNExlT21Ham04Qkh2LjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MTk3fX19XX0_&Signature=Zxn39J7cKXu3wtZ4IrEcYdeX-qYa2kJ0YVbgcgLGyq6~0RiHuda13qGkKFF2Ve9j5i1tf~3BkdYTu3GoYoIm-ziKPOD~FmeXx81Tlic4HuREolJ8SipGWUJEqOcQviPoBgNeDresNOdNZ88S-0~xExCOZ2XkfO0oDIWmAoNwgwBJ5Y8yPSTbfc~e8YKAu~VScBU1uwCP6-yp8bB4MXUDtFtX--brD4mhuU5t7Lg-era1nSfiZqM2ONQ0A57JDB2XQsz5eC~-uBBflHAJnnyZHFlbz-Ei1va1gUrPJP9T8Z5mOHkrjXlyLpeNN8W59N4ou3xhwdswmZFX58Zc1dGCFA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/17-broken-reality"
   },
   {
    "id": 2333927102,
@@ -1751,9 +1645,7 @@
    "reposts": 0,
    "released": "2026-06-05",
    "artwork": "https://i1.sndcdn.com/artworks-1HG5vq2DmTRLVmNp-28hx1A-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/11-static-heart",
-   "stream": "https://cf-media.sndcdn.com/QiiiSyiTD2ba.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vUWlpaVN5aVREMmJhLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MzU0fX19XX0_&Signature=aVLkXK4RBNAhmiOuBwnjr3FhKMpIBkeYJREZS9ZJeqtia0sHoEmaLjCuaNTek6t8jqVAhakGRF0~T8oK-vHNwpLVS9cPUkkqWSFJCY5chjMR-LXQ~qQU9IyUsxodHjtGF1N1lLxK4Flz5OXqeViD4jFuJX1rMZYHAfTccLS~Yjg4XVFf~byOpEzpSrEzlohbQpoxoRW0TzU304eFnatrgotN7m1USV7cm9QSC83cO9qROn0AHs5XjL81~GMVGTNzw-1xfT3SxG-CIpDfit6hnjS~~X8~tCm8qunEhp5DSnAoskpBRQTMDfuq9TyGGze9lokOzjJ6nIaRqfNzLNElaA__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/11-static-heart"
   },
   {
    "id": 2332079354,
@@ -1767,9 +1659,7 @@
    "reposts": 2,
    "released": "2026-06-02",
    "artwork": "https://i1.sndcdn.com/artworks-kI7LPlKPT3VJ8fBg-9GK79g-t500x500.png",
-   "permalink": "https://soundcloud.com/phantomtape/24-the-final-signal",
-   "stream": "https://cf-media.sndcdn.com/LW9lExV3PJcP.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vTFc5bEV4VjNQSmNQLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjkzfX19XX0_&Signature=HCBtpcgvxfCCoRmxbtDwIZp5aeYARQRBo89imuewrvJTD4mEjrr~w~g0~lLnybsXS-R6gl3sjl-Dmbx-dfstmEVHV0AqL0fLKg9uuUpDtpL2-xblP70LLdBJkUTQyABqSPXbU30DGp3W-l7aPJDyO3gkPHgWGc37dp5qe2NJ83ZgGhM9SqE~Ho16zodqVQzmTwoCtBsGrUJMdJ2acQAnD7cG9MMf3FJ-TiqKWTgYhrzeIh1N59q9bqD0PqeBfaZcOQo18dqyPrBPn3fYBK7cBlSRRCh0BprRXGF8m5fCSNVYwBKFtH1JSr-SaZFQaqEu51CLYZEpn8AxnON222Kj-A__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/24-the-final-signal"
   },
   {
    "id": 2329567802,
@@ -1783,9 +1673,7 @@
    "reposts": 1,
    "released": "2026-05-29",
    "artwork": "https://i1.sndcdn.com/artworks-1YpNuYCYZ3rRE7La-3RA9rQ-t500x500.png",
-   "permalink": "https://soundcloud.com/phantomtape/19-outro-fade-to-static",
-   "stream": "https://cf-media.sndcdn.com/X7EG1KvboP6C.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vWDdFRzFLdmJvUDZDLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjU4fX19XX0_&Signature=DhzKsR-eebbe8sHkUXck0qMFAbFzL21IHroITgPTSQ723tx5gTEMRP7BwJ6bkfSivLv4e4mg8B7HywcXaIDkARmLKGIkoXVy0hGALf8oEhx9sTzoGJDHi0J4oUMJyzVk2nNcujsAkMDdzMExQk3UBdyt7wUVncOTnAu8h0YOs4AebIyWLLX9XR9oQk~NZNdUlngaD1RspFg1Fdxkn73DBd8SVVRC5ttrSmLfx-DqYYfzJ56Zhe0TxbfytrOMiBu9jsmaLf8tm3Y2oETtU354hLuDXrXzWoQUYG2zdCPoB8S9cPuCfJqCjfREhO5oCHaTw8ErSCBUtcy-NRo2zsuh2Q__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/19-outro-fade-to-static"
   },
   {
    "id": 2327664089,
@@ -1799,9 +1687,7 @@
    "reposts": 0,
    "released": "2026-05-26",
    "artwork": "https://i1.sndcdn.com/artworks-1QyEbJyhxrsa2bgS-8c1zMw-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/7-shadow-play",
-   "stream": "https://cf-media.sndcdn.com/9hH1otN7AVF1.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vOWhIMW90TjdBVkYxLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MzQ3fX19XX0_&Signature=KMCUtKR5OD3YuzAGWe9POe18l-S7debGbpQhjksRxg1mLqEufZPyijQ3k5Zg5MRGSfq--cJt0uyS8vPOv6gSMT0GrreEzU3mSEKN2eYl9-Iw8nHU9MU~MOCdffZn0c04A9t6s3vyoJfHreRQcFR3tPZMsuhC0reybYp2k2EEW76Qd7FVAuK~XHkpkVoGAYAK~TbRzmuOOy7WrmlmeXp7xa47wqgnJkwOCX1HjrOvTpctGmSebdz5ZDKK5hqwKEXRZPQ~jZjby8qJ1yRImtAkLay2dYF-H2DoduNx6tS3V1r1woCj1E-7DYOmvoKjqMCunUhc8YCuLUbOYgGo0KRrCg__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/7-shadow-play"
   },
   {
    "id": 2325941489,
@@ -1815,9 +1701,7 @@
    "reposts": 0,
    "released": "2026-05-23",
    "artwork": "https://i1.sndcdn.com/artworks-9rljW46rgCW7HASD-yE4KTw-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/23-fade-to-black-23",
-   "stream": "https://cf-media.sndcdn.com/pXBCw5nacNk2.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vcFhCQ3c1bmFjTmsyLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjE3fX19XX0_&Signature=TuCsW2RF9KC0UFYzAfbkCpghw4U3dxoiYJRWzq8fWCLGqTyvznQi6YaBId5JW6eMBtsEtwFs78X6IP8k8RWB-CN7mF0U~T8Eo7B1Q54-spkBswFhBAguuRPVNFwMCmwApxqbgdlRnknH94PL2f1Bv3-0UaZgP0LZbOPuEVHlyZl6K82DsGbTut8k3gCBiX2Nq~5VT6Xi12POe2-QJFClEgcrMbPgPGTIfpGNatBDXiTyCvOW5xuPPmBUroaGOxvVxGz5y76kxuhLU1NY8AY5zucIgQuenmXrfrzi9rxXrf8G6XclA0Da6acLmhZh9q4Q4B9hYCZ503dyW9fqhtCJ0w__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/23-fade-to-black-23"
   },
   {
    "id": 2325941435,
@@ -1831,9 +1715,7 @@
    "reposts": 0,
    "released": "2026-05-23",
    "artwork": "https://i1.sndcdn.com/artworks-gv2VDNyezSv5WT2a-09PfIA-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/12-power-surge-12",
-   "stream": "https://cf-media.sndcdn.com/fP2WKypbUsmR.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vZlAyV0t5cGJVc21SLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2Mjg5fX19XX0_&Signature=Wel7NAwe-YnnugollhzmHc6F55SNYem2fHk~-~XO3N6zm-XUuGKKWb0D43IvbRAZm5gAJRG69c5OIJc7SITPr41h8hOxQU0d~SJ--C4SyKQSdScvF-EOuU5Xm3oj7TcLxLLL-cj4jvGE1RW-uWTB-4k8bhlanTKwmY25LIkOJsOfOj0D-itOIjA8hG618ug5-fx245xFcvWLQ7EB5n1HwHpqEqL-TR9WQwW6rwSX14Rw8F6d8DZpDbia9j54QiidMkPI2IFeduIqlc-0HVW~XTkUBhJV1vKDoLaJwr-mV8WWgH5PmFVi4QG37oqg3mMot4xp2RM2PjGCzjGANFoJ-g__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/12-power-surge-12"
   },
   {
    "id": 2325941423,
@@ -1847,9 +1729,7 @@
    "reposts": 0,
    "released": "2026-05-23",
    "artwork": "https://i1.sndcdn.com/artworks-jrKDY4ay1dAnXCXN-wcTEwQ-t500x500.jpg",
-   "permalink": "https://soundcloud.com/phantomtape/17-unknown-caller-17",
-   "stream": "https://cf-media.sndcdn.com/B0ekYjNtBsnI.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vQjBla1lqTnRCc25JLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkwNTg2MjUyfX19XX0_&Signature=C7~re4ytaQ~od9Cg3hoFBRgIXEc7JbGFvCkneK9~yK-kvrgU4RkKYecmUTlEyKIZrEhPRe2PehvvgbH5BP~esyHZGBShyxMpY-OjGVKyNMWDjQJKRK3y8Ll23E7Cnt36lpmrbTa8k88Kco3tPNf0-1QRSlQSSr9IiZJaYBM7oZfrTyjCtvJJQ0oKbh9SdPnaJf3r0cBQA~BXtyI1eeuL36kEJvVAx6Xrs85i4cJb13B6E41c-yXqQ0J7ml-47lKP9i6vfuWwe2WYGc5RakUyYv~y20Z0CeNRbXhJXj1e512yscQDwmKIhD1Ov-55paL3Aj2DLdm5TJfIGirJv6Ghmw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ",
-   "protocol": "progressive"
+   "permalink": "https://soundcloud.com/phantomtape/17-unknown-caller-17"
   }
  ]
 }

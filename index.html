@@ -144,7 +144,15 @@
 
 </main>
 
-<audio id="audio" preload="metadata"></audio>
+<!-- Real audio comes from the official SoundCloud Widget API. It is
+     embedded here but visually hidden: all visible controls are ours, the
+     widget only supplies the stream. Widget params keep it minimal. -->
+<div class="sc-host" aria-hidden="true">
+  <iframe id="scWidget" title="SoundCloud audio source" width="100%" height="166"
+    allow="autoplay; encrypted-media" scrolling="no" frameborder="no" src="about:blank"></iframe>
+</div>
+
+<script src="https://w.soundcloud.com/player/api.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>
