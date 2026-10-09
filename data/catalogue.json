@@ -61,10 +61,10 @@
       "label_name": "",
       "last_modified": "2026-10-01T10:02:47Z",
       "license": "all-rights-reserved",
-      "likes_count": 4,
+      "likes_count": 6,
       "permalink": "bang",
       "permalink_url": "https://soundcloud.com/phantomtape/bang",
-      "playback_count": 139,
+      "playback_count": 140,
       "public": true,
       "publisher_metadata": {
        "id": 2410987677,
@@ -154,7 +154,7 @@
       },
       "station_urn": "soundcloud:system-playlists:track-stations:2410987677",
       "station_permalink": "track-stations:2410987677",
-      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImZlMDMyZTk0LTYyNDItNDk3Ny1hOGM2LTZkZDMwMjU3NGMxNSIsImlhdCI6MTc5MTQ0MDE0MH0.rziUHCaj5sm-IDMik3DPlhwQCkI4A_mU6Gf8G8erc4E",
+      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImZlMDMyZTk0LTYyNDItNDk3Ny1hOGM2LTZkZDMwMjU3NGMxNSIsImlhdCI6MTc5MTUyNjY4MX0.qQYcp0S6wLlv67isJ6BH_68ncP2xuEFTSn3DFFbESgA",
       "monetization_model": "BLACKBOX",
       "policy": "MONETIZE",
       "user": {
@@ -220,7 +220,7 @@
       "artwork_url": null,
       "created_at": "2026-09-30T16:21:51Z",
       "description": null,
-      "duration": 23765414,
+      "duration": 23552614,
       "embeddable_by": "all",
       "genre": "",
       "id": 2307166047,
@@ -296,7 +296,7 @@
         "likes_count": 4,
         "permalink": "lonely-remix",
         "permalink_url": "https://soundcloud.com/phantomtape/lonely-remix",
-        "playback_count": 225,
+        "playback_count": 226,
         "public": true,
         "publisher_metadata": {
          "id": 2408961174,
@@ -386,7 +386,7 @@
         },
         "station_urn": "soundcloud:system-playlists:track-stations:2408961174",
         "station_permalink": "track-stations:2408961174",
-        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MTQ0MDE0MH0.FixvCBKM6LZZteOcPERzSaYCtBd-zR5DZoYGmJiyKr8",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MTUyNjY4MX0.PUHTrNvz9GC3wq6BINi-oEJjE77DgK5U-httznZrtTs",
         "monetization_model": "BLACKBOX",
         "policy": "MONETIZE",
         "user": {
@@ -499,9 +499,15 @@
         "kind": "track",
         "monetization_model": "BLACKBOX",
         "policy": "MONETIZE"
+       },
+       {
+        "id": 2397379419,
+        "kind": "track",
+        "monetization_model": "BLACKBOX",
+        "policy": "MONETIZE"
        }
       ],
-      "track_count": 15
+      "track_count": 16
      }
     },
     {
@@ -557,7 +563,7 @@
       "likes_count": 4,
       "permalink": "lonely-remix",
       "permalink_url": "https://soundcloud.com/phantomtape/lonely-remix",
-      "playback_count": 225,
+      "playback_count": 226,
       "public": true,
       "publisher_metadata": {
        "id": 2408961174,
@@ -647,7 +653,7 @@
       },
       "station_urn": "soundcloud:system-playlists:track-stations:2408961174",
       "station_permalink": "track-stations:2408961174",
-      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MTQ0MDE0MH0.FixvCBKM6LZZteOcPERzSaYCtBd-zR5DZoYGmJiyKr8",
+      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MTUyNjY4MX0.PUHTrNvz9GC3wq6BINi-oEJjE77DgK5U-httznZrtTs",
       "monetization_model": "BLACKBOX",
       "policy": "MONETIZE",
       "user": {
@@ -683,9 +689,9 @@
    "query_urn": null
   },
   "frequency": "103.7",
-  "track_count": 16,
-  "total_ms": 3308000,
-  "built": "2026-10-08T06:15:40Z"
+  "track_count": 17,
+  "total_ms": 3476000,
+  "built": "2026-10-09T06:18:01Z"
  },
  "tracks": [
   {
@@ -695,8 +701,8 @@
    "duration": 219,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 139,
-   "likes": 4,
+   "plays": 140,
+   "likes": 6,
    "reposts": 2,
    "released": "2026-10-01",
    "artwork": "https://i1.sndcdn.com/artworks-lMjfj5kdoP3AwjyQ-HfDjMQ-t500x500.jpg",
@@ -709,7 +715,7 @@
    "duration": 220,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 225,
+   "plays": 226,
    "likes": 4,
    "reposts": 2,
    "released": "2026-09-28",
@@ -723,7 +729,7 @@
    "duration": 191,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 204,
+   "plays": 205,
    "likes": 8,
    "reposts": 4,
    "released": "2026-09-25",
@@ -737,8 +743,8 @@
    "duration": 170,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 347,
-   "likes": 9,
+   "plays": 368,
+   "likes": 8,
    "reposts": 2,
    "released": "2026-09-25",
    "artwork": "https://i1.sndcdn.com/artworks-z6vMw7FUMB4rx0vW-mZfxiA-t500x500.jpg",
@@ -765,7 +771,7 @@
    "duration": 207,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 233,
+   "plays": 234,
    "likes": 5,
    "reposts": 0,
    "released": "2026-09-23",
@@ -807,7 +813,7 @@
    "duration": 211,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 247,
+   "plays": 250,
    "likes": 5,
    "reposts": 0,
    "released": "2026-09-21",
@@ -821,7 +827,7 @@
    "duration": 229,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 1305,
+   "plays": 1318,
    "likes": 10,
    "reposts": 0,
    "released": "2026-09-21",
@@ -835,7 +841,7 @@
    "duration": 283,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 189,
+   "plays": 190,
    "likes": 3,
    "reposts": 0,
    "released": "2026-09-19",
@@ -911,6 +917,20 @@
    "released": "2026-09-09",
    "artwork": "https://i1.sndcdn.com/artworks-4EtPKVCi2ssZajtU-ErHelA-t500x500.jpg",
    "permalink": "https://soundcloud.com/phantomtape/gametime-x-idfwu-remix"
+  },
+  {
+   "id": 2397379419,
+   "n": 17,
+   "title": "Mess Is Mine × I’m Good (Remix)",
+   "duration": 168,
+   "genre": "Dance & EDM",
+   "tint": "#B8FF1E",
+   "plays": 182,
+   "likes": 5,
+   "reposts": 1,
+   "released": "2026-09-09",
+   "artwork": "https://i1.sndcdn.com/artworks-ZdyuKb7RfT0PCzJb-xK9zOg-t500x500.jpg",
+   "permalink": "https://soundcloud.com/phantomtape/mess-is-mine-x-im-good-remix"
   }
  ]
 }
