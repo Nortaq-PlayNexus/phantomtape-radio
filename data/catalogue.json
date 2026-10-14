@@ -4,7 +4,7 @@
   "handle": "phantomtape",
   "city": "Melbourne",
   "country": "AU",
-  "followers": 160,
+  "followers": 158,
   "following": 58,
   "avatar": "https://i1.sndcdn.com/avatars-RHk42NKJyBzswD2L-fZqKEw-large.jpg",
   "permalink": "https://soundcloud.com/phantomtape",
@@ -17,7 +17,7 @@
      "user": {
       "avatar_url": "https://i1.sndcdn.com/avatars-RHk42NKJyBzswD2L-fZqKEw-large.jpg",
       "first_name": "DJ",
-      "followers_count": 160,
+      "followers_count": 158,
       "full_name": "DJ PhantomTape",
       "id": 1645780733,
       "kind": "user",
@@ -64,7 +64,7 @@
       "likes_count": 6,
       "permalink": "bang",
       "permalink_url": "https://soundcloud.com/phantomtape/bang",
-      "playback_count": 140,
+      "playback_count": 141,
       "public": true,
       "publisher_metadata": {
        "id": 2410987677,
@@ -125,42 +125,18 @@
          },
          "quality": "sq",
          "is_legacy_transcoding": false
-        },
-        {
-         "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2410987677/0a816cc3-3501-4d87-a028-91b6fa7f47df/stream/hls",
-         "preset": "mp3_1_0",
-         "duration": 218920,
-         "snipped": false,
-         "format": {
-          "protocol": "hls",
-          "mime_type": "audio/mpeg"
-         },
-         "quality": "sq",
-         "is_legacy_transcoding": true
-        },
-        {
-         "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2410987677/0a816cc3-3501-4d87-a028-91b6fa7f47df/stream/progressive",
-         "preset": "mp3_1_0",
-         "duration": 218920,
-         "snipped": false,
-         "format": {
-          "protocol": "progressive",
-          "mime_type": "audio/mpeg"
-         },
-         "quality": "sq",
-         "is_legacy_transcoding": true
         }
        ]
       },
       "station_urn": "soundcloud:system-playlists:track-stations:2410987677",
       "station_permalink": "track-stations:2410987677",
-      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImZlMDMyZTk0LTYyNDItNDk3Ny1hOGM2LTZkZDMwMjU3NGMxNSIsImlhdCI6MTc5MTg3NDM0OH0.qpFJQDFsnQ2QobTLa2P7ni_SuzgXyzlLeTioBZd7xjo",
+      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImZlMDMyZTk0LTYyNDItNDk3Ny1hOGM2LTZkZDMwMjU3NGMxNSIsImlhdCI6MTc5MTk1NDEwMn0.a9VmNCh9Ixg9L5-UR0v_z2pRuAKjm_RgrrMY5m443oQ",
       "monetization_model": "BLACKBOX",
       "policy": "MONETIZE",
       "user": {
        "avatar_url": "https://i1.sndcdn.com/avatars-RHk42NKJyBzswD2L-fZqKEw-large.jpg",
        "first_name": "DJ",
-       "followers_count": 160,
+       "followers_count": 158,
        "full_name": "DJ PhantomTape",
        "id": 1645780733,
        "kind": "user",
@@ -191,7 +167,7 @@
      "user": {
       "avatar_url": "https://i1.sndcdn.com/avatars-RHk42NKJyBzswD2L-fZqKEw-large.jpg",
       "first_name": "DJ",
-      "followers_count": 160,
+      "followers_count": 158,
       "full_name": "DJ PhantomTape",
       "id": 1645780733,
       "kind": "user",
@@ -250,7 +226,7 @@
       "user": {
        "avatar_url": "https://i1.sndcdn.com/avatars-RHk42NKJyBzswD2L-fZqKEw-large.jpg",
        "first_name": "DJ",
-       "followers_count": 160,
+       "followers_count": 158,
        "full_name": "DJ PhantomTape",
        "id": 1645780733,
        "kind": "user",
@@ -296,7 +272,7 @@
         "likes_count": 4,
         "permalink": "lonely-remix",
         "permalink_url": "https://soundcloud.com/phantomtape/lonely-remix",
-        "playback_count": 234,
+        "playback_count": 235,
         "public": true,
         "publisher_metadata": {
          "id": 2408961174,
@@ -386,13 +362,13 @@
         },
         "station_urn": "soundcloud:system-playlists:track-stations:2408961174",
         "station_permalink": "track-stations:2408961174",
-        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MTg3NDM0OH0.Z_A8gDBfwWY_WcfG4tRhcA5YboP0jYZo9PiM_h34UQ0",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MTk1NDEwMn0.Kkdedn5mvLsQxMVpPMkFYhLQb95tzldIAHSkrXu0Tps",
         "monetization_model": "BLACKBOX",
         "policy": "MONETIZE",
         "user": {
          "avatar_url": "https://i1.sndcdn.com/avatars-RHk42NKJyBzswD2L-fZqKEw-large.jpg",
          "first_name": "DJ",
-         "followers_count": 160,
+         "followers_count": 158,
          "full_name": "DJ PhantomTape",
          "id": 1645780733,
          "kind": "user",
@@ -516,7 +492,7 @@
      "user": {
       "avatar_url": "https://i1.sndcdn.com/avatars-RHk42NKJyBzswD2L-fZqKEw-large.jpg",
       "first_name": "DJ",
-      "followers_count": 160,
+      "followers_count": 158,
       "full_name": "DJ PhantomTape",
       "id": 1645780733,
       "kind": "user",
@@ -563,7 +539,7 @@
       "likes_count": 4,
       "permalink": "lonely-remix",
       "permalink_url": "https://soundcloud.com/phantomtape/lonely-remix",
-      "playback_count": 234,
+      "playback_count": 235,
       "public": true,
       "publisher_metadata": {
        "id": 2408961174,
@@ -624,42 +600,18 @@
          },
          "quality": "sq",
          "is_legacy_transcoding": false
-        },
-        {
-         "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2408961174/da0a51ed-abb7-444a-8b59-059259eef253/stream/hls",
-         "preset": "mp3_1_0",
-         "duration": 219590,
-         "snipped": false,
-         "format": {
-          "protocol": "hls",
-          "mime_type": "audio/mpeg"
-         },
-         "quality": "sq",
-         "is_legacy_transcoding": true
-        },
-        {
-         "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2408961174/da0a51ed-abb7-444a-8b59-059259eef253/stream/progressive",
-         "preset": "mp3_1_0",
-         "duration": 219590,
-         "snipped": false,
-         "format": {
-          "protocol": "progressive",
-          "mime_type": "audio/mpeg"
-         },
-         "quality": "sq",
-         "is_legacy_transcoding": true
         }
        ]
       },
       "station_urn": "soundcloud:system-playlists:track-stations:2408961174",
       "station_permalink": "track-stations:2408961174",
-      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MTg3NDM0OH0.Z_A8gDBfwWY_WcfG4tRhcA5YboP0jYZo9PiM_h34UQ0",
+      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MTk1NDEwMn0.Kkdedn5mvLsQxMVpPMkFYhLQb95tzldIAHSkrXu0Tps",
       "monetization_model": "BLACKBOX",
       "policy": "MONETIZE",
       "user": {
        "avatar_url": "https://i1.sndcdn.com/avatars-RHk42NKJyBzswD2L-fZqKEw-large.jpg",
        "first_name": "DJ",
-       "followers_count": 160,
+       "followers_count": 158,
        "full_name": "DJ PhantomTape",
        "id": 1645780733,
        "kind": "user",
@@ -691,7 +643,7 @@
   "frequency": "103.7",
   "track_count": 17,
   "total_ms": 3476000,
-  "built": "2026-10-13T06:52:28Z"
+  "built": "2026-10-14T05:01:42Z"
  },
  "tracks": [
   {
@@ -701,7 +653,7 @@
    "duration": 219,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 140,
+   "plays": 141,
    "likes": 6,
    "reposts": 2,
    "released": "2026-10-01",
@@ -715,7 +667,7 @@
    "duration": 220,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 234,
+   "plays": 235,
    "likes": 4,
    "reposts": 2,
    "released": "2026-09-28",
@@ -729,7 +681,7 @@
    "duration": 191,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 207,
+   "plays": 210,
    "likes": 8,
    "reposts": 4,
    "released": "2026-09-25",
@@ -743,7 +695,7 @@
    "duration": 170,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 396,
+   "plays": 400,
    "likes": 8,
    "reposts": 2,
    "released": "2026-09-25",
@@ -799,7 +751,7 @@
    "duration": 223,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 206,
+   "plays": 207,
    "likes": 5,
    "reposts": 1,
    "released": "2026-09-21",
@@ -813,7 +765,7 @@
    "duration": 211,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 263,
+   "plays": 269,
    "likes": 5,
    "reposts": 0,
    "released": "2026-09-21",
@@ -827,7 +779,7 @@
    "duration": 229,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 1332,
+   "plays": 1338,
    "likes": 10,
    "reposts": 0,
    "released": "2026-09-21",
@@ -841,7 +793,7 @@
    "duration": 283,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 193,
+   "plays": 195,
    "likes": 3,
    "reposts": 0,
    "released": "2026-09-19",
@@ -869,7 +821,7 @@
    "duration": 333,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 231,
+   "plays": 232,
    "likes": 6,
    "reposts": 0,
    "released": "2026-09-18",
@@ -898,7 +850,7 @@
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
    "plays": 152,
-   "likes": 5,
+   "likes": 4,
    "reposts": 0,
    "released": "2026-09-09",
    "artwork": "https://i1.sndcdn.com/artworks-7zrhjEgSlIDiQy18-BMTzZA-t500x500.jpg",
@@ -912,7 +864,7 @@
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
    "plays": 137,
-   "likes": 3,
+   "likes": 2,
    "reposts": 1,
    "released": "2026-09-09",
    "artwork": "https://i1.sndcdn.com/artworks-4EtPKVCi2ssZajtU-ErHelA-t500x500.jpg",
