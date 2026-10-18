@@ -130,7 +130,7 @@
       },
       "station_urn": "soundcloud:system-playlists:track-stations:2410987677",
       "station_permalink": "track-stations:2410987677",
-      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImZlMDMyZTk0LTYyNDItNDk3Ny1hOGM2LTZkZDMwMjU3NGMxNSIsImlhdCI6MTc5MjIxMTg2MH0.-_wKXD9pbL4KUY4CnKNxSlCppfRt3yDkxDgN8FdT8oQ",
+      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImZlMDMyZTk0LTYyNDItNDk3Ny1hOGM2LTZkZDMwMjU3NGMxNSIsImlhdCI6MTc5MjI5ODU4NH0.E5v0X5VU2Obb_VUqNgJFZVJzyftIUVcYLkLntQ-pit4",
       "monetization_model": "BLACKBOX",
       "policy": "MONETIZE",
       "user": {
@@ -338,7 +338,7 @@
         },
         "station_urn": "soundcloud:system-playlists:track-stations:2408961174",
         "station_permalink": "track-stations:2408961174",
-        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MjIxMTg2MH0.cD88jCTrbNklbGPd28t4yBDXVU3YXe5r7cJsGlDvKvI",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MjI5ODU4NH0.d__jvwYad6NuKSCNKvJRc9WIC_S-peRjd0-eFCsvYdk",
         "monetization_model": "BLACKBOX",
         "policy": "MONETIZE",
         "user": {
@@ -581,7 +581,7 @@
       },
       "station_urn": "soundcloud:system-playlists:track-stations:2408961174",
       "station_permalink": "track-stations:2408961174",
-      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MjIxMTg2MH0.cD88jCTrbNklbGPd28t4yBDXVU3YXe5r7cJsGlDvKvI",
+      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MjI5ODU4NH0.d__jvwYad6NuKSCNKvJRc9WIC_S-peRjd0-eFCsvYdk",
       "monetization_model": "BLACKBOX",
       "policy": "MONETIZE",
       "user": {
@@ -619,7 +619,7 @@
   "frequency": "103.7",
   "track_count": 17,
   "total_ms": 3476000,
-  "built": "2026-10-17T04:37:40Z"
+  "built": "2026-10-18T04:43:04Z"
  },
  "tracks": [
   {
@@ -671,7 +671,7 @@
    "duration": 170,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 412,
+   "plays": 420,
    "likes": 8,
    "reposts": 2,
    "released": "2026-09-25",
@@ -727,7 +727,7 @@
    "duration": 223,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 214,
+   "plays": 217,
    "likes": 5,
    "reposts": 1,
    "released": "2026-09-21",
@@ -741,7 +741,7 @@
    "duration": 211,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 277,
+   "plays": 278,
    "likes": 5,
    "reposts": 0,
    "released": "2026-09-21",
@@ -755,7 +755,7 @@
    "duration": 229,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 1351,
+   "plays": 1358,
    "likes": 11,
    "reposts": 0,
    "released": "2026-09-21",
