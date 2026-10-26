@@ -64,7 +64,7 @@
       "likes_count": 6,
       "permalink": "bang",
       "permalink_url": "https://soundcloud.com/phantomtape/bang",
-      "playback_count": 143,
+      "playback_count": 144,
       "public": true,
       "publisher_metadata": {
        "id": 2410987677,
@@ -130,7 +130,7 @@
       },
       "station_urn": "soundcloud:system-playlists:track-stations:2410987677",
       "station_permalink": "track-stations:2410987677",
-      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImZlMDMyZTk0LTYyNDItNDk3Ny1hOGM2LTZkZDMwMjU3NGMxNSIsImlhdCI6MTc5MjkwMzk4MH0.3QR4-fYB3O2BAbfhiMm4Xvlj0KY5FVldArbEHLRMmhY",
+      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImZlMDMyZTk0LTYyNDItNDk3Ny1hOGM2LTZkZDMwMjU3NGMxNSIsImlhdCI6MTc5Mjk5MDYyM30.uBLXf-sRi5APupQ_vxoZa9HhPIkR56bn1alMyxeARFo",
       "monetization_model": "BLACKBOX",
       "policy": "MONETIZE",
       "user": {
@@ -338,7 +338,7 @@
         },
         "station_urn": "soundcloud:system-playlists:track-stations:2408961174",
         "station_permalink": "track-stations:2408961174",
-        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MjkwMzk4MH0.uqdTAAtjA9zycwvIGabP7q_c1jow9Ps06MUdbBuTsiA",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5Mjk5MDYyM30.J2oNoAkF7874QPE3vNOC1KXzraqNiRyH1QZTZY_Bxm0",
         "monetization_model": "BLACKBOX",
         "policy": "MONETIZE",
         "user": {
@@ -581,7 +581,7 @@
       },
       "station_urn": "soundcloud:system-playlists:track-stations:2408961174",
       "station_permalink": "track-stations:2408961174",
-      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5MjkwMzk4MH0.uqdTAAtjA9zycwvIGabP7q_c1jow9Ps06MUdbBuTsiA",
+      "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjAyZWQ3M2FjLTQ4OTYtNDkyMi1iMWVkLWY4M2YyZmVjMjdmYSIsImlhdCI6MTc5Mjk5MDYyM30.J2oNoAkF7874QPE3vNOC1KXzraqNiRyH1QZTZY_Bxm0",
       "monetization_model": "BLACKBOX",
       "policy": "MONETIZE",
       "user": {
@@ -619,7 +619,7 @@
   "frequency": "103.7",
   "track_count": 17,
   "total_ms": 3476000,
-  "built": "2026-10-25T04:53:01Z"
+  "built": "2026-10-26T04:57:03Z"
  },
  "tracks": [
   {
@@ -629,7 +629,7 @@
    "duration": 219,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 143,
+   "plays": 144,
    "likes": 6,
    "reposts": 3,
    "released": "2026-10-01",
@@ -657,7 +657,7 @@
    "duration": 191,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 221,
+   "plays": 223,
    "likes": 8,
    "reposts": 4,
    "released": "2026-09-25",
@@ -671,7 +671,7 @@
    "duration": 170,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 446,
+   "plays": 451,
    "likes": 8,
    "reposts": 2,
    "released": "2026-09-25",
@@ -727,7 +727,7 @@
    "duration": 223,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 227,
+   "plays": 228,
    "likes": 3,
    "reposts": 0,
    "released": "2026-09-21",
@@ -741,7 +741,7 @@
    "duration": 211,
    "genre": "Hip-hop & Rap",
    "tint": "#FF4D00",
-   "plays": 297,
+   "plays": 300,
    "likes": 5,
    "reposts": 0,
    "released": "2026-09-21",
@@ -755,7 +755,7 @@
    "duration": 229,
    "genre": "Dance & EDM",
    "tint": "#B8FF1E",
-   "plays": 1427,
+   "plays": 1431,
    "likes": 10,
    "reposts": 0,
    "released": "2026-09-21",
